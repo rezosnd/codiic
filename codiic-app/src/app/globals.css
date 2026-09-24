@@ -1,0 +1,148 @@
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 200;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+}
+@font-face {
+  font-family: "druk-cyr";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/druk-cyr/druk-cyr-bold.woff2") format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "druk-cyr";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/druk-cyr/druk-cyr-bold.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 700;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 100;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "abc-favorit";
+  src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
+  font-display: swap;
+  font-weight: 900;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3;
+}
+
+.main_dnd-row-7-force-full-width-section > .row-fluid {
+  max-width: none !important;
+}
+.main_dnd-row-1-hidden {
+  display: block !important;
+}
+.main_dnd-row-6-padding {
+  padding-top: 80px !important;
+}
+.main_dnd-row-7-padding {
+  padding-top: 20px !important;
+  padding-bottom: 50px !important;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+.main_dnd-row-7-background-layers {
+  background-image: linear-gradient(rgba(28, 33, 27, 1), rgba(28, 33, 27, 1)) !important;
+  background-position: left top !important;
+  background-size: auto !important;
+  background-repeat: no-repeat !important;
+}
+.widget_1741551298453-hidden {
+  display: block !important;
+}
+.cell_17415515188772-hidden {
+  display: block !important;
+}
+.widget_1774384388649-hidden {
+  display: block !important;
+}
+
+/* Codiic Global Color Overrides */
+.bg-green, .\!bg-green, .color-green {
+  background-color: #1A2853 !important;
+}
+.text-green, .\!text-green {
+  color: #1A2853 !important;
+}
+.border-green, .\!border-green {
+  border-color: #1A2853 !important;
+}
+/* Override any element that uses the specific rgb(86 217 100) / #56d964 */
+[style*="background-color: rgb(86, 217, 100)"],
+[style*="background-color:rgb(86, 217, 100)"],
+[style*="background-color: #56d964"],
+[style*="background: rgb(86, 217, 100)"],
+[style*="background: #56d964"],
+[style*="background-color: #4ade80"],
+[style*="background: #4ade80"] {
+  background-color: #1A2853 !important;
+}
+[style*="color: rgb(86, 217, 100)"],
+[style*="color:rgb(86, 217, 100)"],
+[style*="color: #56d964"],
+[style*="color: #4ade80"] {
+  color: #1A2853 !important;
+}
+svg path[fill="#56D964" i],
+svg path[fill="#56d964" i],
+svg path[fill="rgb(86, 217, 100)"],
+svg path[fill="rgb(86,217,100)"],
+svg path[fill="#4ade80" i] {
+  fill: #1A2853 !important;
+}
+svg path[stroke="#56D964" i],
+svg path[stroke="#56d964" i],
+svg path[stroke="rgb(86, 217, 100)"],
+svg path[stroke="rgb(86,217,100)"],
+svg path[stroke="#4ade80" i] {
+  stroke: #1A2853 !important;
+}
