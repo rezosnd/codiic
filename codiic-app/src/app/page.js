@@ -60,7 +60,7 @@ export default function Page() {
   logo3="https://codiic.com/assets/Logo/Chronexa.png" 
   logo4="https://codiic.com/assets/Logo/Dermify.png" 
   getstartedtext="Get started" 
-  headline="Launch faster. Sell smarter." 
+  headline="BUILD WITHOUT CODE. DRAG. DROP. DONE." 
   description="Trusted by 5,000+ Stores Worldwide" 
   box1="Total Revenue" box1number="₹16L" box1text="↑ 18.6% vs last 30 days" 
   box2="Total Orders" box2number="1,427" box2text="↑ 12.4% vs last 30 days" 
