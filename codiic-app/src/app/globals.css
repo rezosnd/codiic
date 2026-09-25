@@ -1,3 +1,4 @@
+@import url("https://zipcio.com/hubfs/hub_generated/template_assets/1/187080988771/1777423563060/template_main.min.css");
 @font-face {
   font-family: "abc-favorit";
   src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
@@ -106,43 +107,45 @@ body {
   display: block !important;
 }
 
-/* Codiic Global Color Overrides */
-.bg-green, .\!bg-green, .color-green {
-  background-color: #1A2853 !important;
+a.cta_button {
+  -moz-box-sizing: content-box !important;
+  -webkit-box-sizing: content-box !important;
+  box-sizing: content-box !important;
+  vertical-align: middle;
 }
-.text-green, .\!text-green {
-  color: #1A2853 !important;
+.hs-breadcrumb-menu {
+  list-style-type: none;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
 }
-.border-green, .\!border-green {
-  border-color: #1A2853 !important;
+.hs-breadcrumb-menu-item {
+  float: left;
+  padding: 10px 0px 10px 10px;
 }
-/* Override any element that uses the specific rgb(86 217 100) / #56d964 */
-[style*="background-color: rgb(86, 217, 100)"],
-[style*="background-color:rgb(86, 217, 100)"],
-[style*="background-color: #56d964"],
-[style*="background: rgb(86, 217, 100)"],
-[style*="background: #56d964"],
-[style*="background-color: #4ade80"],
-[style*="background: #4ade80"] {
-  background-color: #1A2853 !important;
+.hs-breadcrumb-menu-divider:before {
+  content: '›';
+  padding-left: 10px;
 }
-[style*="color: rgb(86, 217, 100)"],
-[style*="color:rgb(86, 217, 100)"],
-[style*="color: #56d964"],
-[style*="color: #4ade80"] {
-  color: #1A2853 !important;
+.hs-featured-image-link {
+  border: 0;
 }
-svg path[fill="#56D964" i],
-svg path[fill="#56d964" i],
-svg path[fill="rgb(86, 217, 100)"],
-svg path[fill="rgb(86,217,100)"],
-svg path[fill="#4ade80" i] {
-  fill: #1A2853 !important;
+.hs-featured-image {
+  float: right;
+  margin: 0 0 20px 20px;
+  max-width: 50%;
 }
-svg path[stroke="#56D964" i],
-svg path[stroke="#56d964" i],
-svg path[stroke="rgb(86, 217, 100)"],
-svg path[stroke="rgb(86,217,100)"],
-svg path[stroke="#4ade80" i] {
-  stroke: #1A2853 !important;
+@media (max-width: 568px) {
+  .hs-featured-image {
+    float: none;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+.hs-screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
 }
