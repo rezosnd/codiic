@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141174000/hubspot/hubspot_default/shared/responsive/layout.min.css" />
         
         <script dangerouslySetInnerHTML={{ __html: `var hsVars = hsVars || {}; hsVars['language'] = 'en';` }}></script>
-        <script defer src="/template_main.js?v=9"></script>
+        <script defer src="/template_main.js?v=10"></script>
         <script defer src="https://zipcio.com/hubfs/hub_generated/module_assets/1/187881413719/1778538156611/module_HowWeWork.min.js"></script>
 
       </body>
