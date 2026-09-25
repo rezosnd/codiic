@@ -1,4 +1,4 @@
-@import url("https://zipcio.com/hubfs/hub_generated/template_assets/1/187080988771/1777423563060/template_main.min.css");
+@import url("/template_main.min.css");
 @font-face {
   font-family: "abc-favorit";
   src: url("https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/fonts/abc-favorit/abc-favorit.woff2") format("truetype-variations");
@@ -73,7 +73,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #f3f3f3;
+  background-color: #fafaff;
 }
 
 .main_dnd-row-7-force-full-width-section > .row-fluid {
@@ -92,7 +92,7 @@ body {
   padding-right: 50px !important;
 }
 .main_dnd-row-7-background-layers {
-  background-image: linear-gradient(rgba(28, 33, 27, 1), rgba(28, 33, 27, 1)) !important;
+  background-image: linear-gradient(rgba(8, 8, 79, 1), rgba(8, 8, 79, 1)) !important;
   background-position: left top !important;
   background-size: auto !important;
   background-repeat: no-repeat !important;
