@@ -74,7 +74,7 @@ var ed,Qr,yo,cl,ji,rd,dl,ld,Er={},Ei=180/Math.PI,_o=Math.PI/180,ko=Math.atan2,id
                         <div class=${mt("flex flex-col h-[200%] transition-all delay-500 duration-500",this.showSiteName&&"-translate-y-1/2")}>
                             <span class="h-full flex items-center justify-center font-druk-cyr text-4xl">${Math.floor(this.percentage)}%</span>
                             <span class="h-full flex items-center justify-center">
-                                <img src="https://codiic.com/assets/img/logo.png" alt="Codiic Logo" style="height: 24px; object-fit: contain;">
+                                <img src="https://codiic.com/assets/img/logo.png" alt="Codiic Logo" style="height: 48px; object-fit: contain;">
                             </span>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ var ed,Qr,yo,cl,ji,rd,dl,ld,Er={},Ei=180/Math.PI,_o=Math.PI/180,ko=Math.atan2,id
                 <div class="float-right min-h-full w-full bg-white p-7 shadow-2xl">
                     <header class="flex justify-between items-center">
                         <a href="/">
-                            <img src="${"/logo.svg"}" alt="logo" class="w-logo">
+                            <img src="${"https://codiic.com/assets/img/logo.png"}" alt="logo" class="w-logo">
                         </a>
                         <a class="gap-0 flex items-center xl:hidden cursor-pointer">
 <!--                            <span class="menu-item !bg-green !px-[32px] !m-0 !text-base">-->
@@ -123,8 +123,8 @@ var ed,Qr,yo,cl,ji,rd,dl,ld,Er={},Ei=180/Math.PI,_o=Math.PI/180,ko=Math.atan2,id
         `}};Tl([Aa()],Cs.prototype,"isOpen",2),Tl([b({type:String})],Cs.prototype,"bookUrl",2),Cs=Tl([W("mobile-navigation")],Cs);var W0=Object.defineProperty,G0=Object.getOwnPropertyDescriptor,yn=(t,e,r,i)=>{for(var s,o=i>1?void 0:i?G0(e,r):e,n=t.length-1;n>=0;n--)(s=t[n])&&(o=(i?s(e,r,o):s(o))||o);return i&&o&&W0(e,r,o),o};let zo=class extends(J()){constructor(){super(...arguments),this.bookUrl="",this.mode="light",this.home="false"}el(t){var e;return null==(e=this.shadowRoot)?void 0:e.querySelectorAll(t)}firstUpdated(t){"true"===this.home&&F.fromTo(this.el("#navbar"),{y:"-100%",duration:.5},{y:0,delay:6.6,ease:"power2.inOut"})}toggleMenu(){this.mobileNav.toggleNavigation()}render(){return E`
             <div id="navbar" class="w-[100dvw] z-[200] py-7 flex justify-between items-center px-4 md:px-8 3xl:px-12 fixed top-0 left-0">
                 <a href="/">
-                    <img class="${mt("w-logo","dark"===this.mode&&"hidden")}" src="${"/logo.svg"}" alt="logo">
-                    <img class="${mt("w-logo","dark"!==this.mode&&"hidden")}" src="${"/logo-light.svg"}" alt="logo">
+                    <img class="${mt("w-logo","dark"===this.mode&&"hidden")}" src="${"https://codiic.com/assets/img/logo.png"}" alt="logo">
+                    <img class="${mt("w-logo","dark"!==this.mode&&"hidden")}" src="${"https://codiic.com/assets/img/logo.png"}" alt="logo">
                 </a>
                 <nav class="hidden xl:flex">
                     <slot name="desktop" class="flex flex-nowrap"></slot>
@@ -761,7 +761,7 @@ const _f_CHILD=2;class Cf{constructor(e){}get _$AU(){return this._$AM._$AU}_$AT(
            </section>
         `}};ng([b({type:String})],zp.prototype,"image",2),zp=ng([W("contact-section")],zp);var Of=Object.defineProperty,jf=Object.getOwnPropertyDescriptor,sg=(t,e,r,i)=>{for(var s,o=i>1?void 0:i?jf(e,r):e,n=t.length-1;n>=0;n--)(s=t[n])&&(o=(i?s(e,r,o):s(o))||o);return i&&o&&Of(e,r,o),o};let Op=class extends(J()){constructor(){super(...arguments),this.ctaLink=""}render(){const t=(new Date).getFullYear();return E`
            <section class="bg-neutral-20 px-4 py-8 md:px-8 md:py-10 3xl:px-12 3xl:py-16 w-full flex flex-col lg:flex-row lg:flex-wrap lg:gap-6">
-               <img class="w-full mb-6 lg:mb-0" src="${"/logo-light.svg"}" alt="contact">
+               <img class="w-full mb-6 lg:mb-0" src="${"https://codiic.com/assets/img/logo.png"}" alt="contact">
                <div class="text-neutral-90 flex mb-24 lg:mb-0 w-full lg:order-2 lg:w-1/2">
                    <ul class="grow">
                        <slot name="menu-1"></slot> 
