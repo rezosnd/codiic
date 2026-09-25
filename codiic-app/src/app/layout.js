@@ -18,11 +18,11 @@ export default function RootLayout({ children }) {
         
         {/* Next.js Script Components for optimal loading and hydration safety */}
         <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
-        <link rel="stylesheet" href="/template_main.min.css" />
+        <link rel="stylesheet" href="/template_main.min.css?v=2" />
         <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141174000/hubspot/hubspot_default/shared/responsive/layout.min.css" />
         
         <script dangerouslySetInnerHTML={{ __html: `var hsVars = hsVars || {}; hsVars['language'] = 'en';` }}></script>
-        <script defer src="/template_main.js"></script>
+        <script defer src="/template_main.js?v=2"></script>
         <script defer src="https://zipcio.com/hubfs/hub_generated/module_assets/1/187881413719/1778538156611/module_HowWeWork.min.js"></script>
 
       </body>
