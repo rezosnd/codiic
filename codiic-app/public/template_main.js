@@ -1326,7 +1326,7 @@
             </section>
         `}
         }; ui([b({ type: String })], Br.prototype, "color", 2), ui([b({ type: String })], Br.prototype, "heading", 2), ui([b({ type: String })], Br.prototype, "headingHighlight", 2), ui([b({ type: String })], Br.prototype, "headingMiddle", 2), ui([b({ type: String })], Br.prototype, "body", 2), ui([b({ type: String })], Br.prototype, "mainImage", 2), ui([b({ type: String })], Br.prototype, "accentImage", 2), Br = ui([W("success-growth")], Br); var l1 = Object.defineProperty, p1 = Object.getOwnPropertyDescriptor, Ie = (t, e, r, i) => { for (var s, o = i > 1 ? void 0 : i ? p1(e, r) : e, n = t.length - 1; n >= 0; n--)(s = t[n]) && (o = (i ? s(e, r, o) : s(o)) || o); return i && o && l1(e, r, o), o }; let De = class extends (J()) {
-            constructor() { super(...arguments), this.leading = "", this.image = "", this.block1title = "", this.block1description = "", this.block1image = "", this.block2title = "", this.block2description = "", this.block2image = "", this.block3title = "", this.block3description = "", this.block3image = "", this.block4title = "", this.block4description = "", this.block4image = "", this.buttonText = "", this.buttonHref = "" } 
+            constructor() { super(...arguments), this.leading = "", this.image = "", this.block1title = "", this.block1description = "", this.block1image = "", this.block2title = "", this.block2description = "", this.block2image = "", this.block3title = "", this.block3description = "", this.block3image = "", this.block4title = "", this.block4description = "", this.block4image = "", this.buttonText = "", this.buttonHref = "" }
             firstUpdated() {
                 const observer = new IntersectionObserver((entries) => {
                     entries.forEach(entry => {
@@ -1436,14 +1436,14 @@
            </section>
         `}
         }; Ie([b({ type: String })], De.prototype, "leading", 2), Ie([b({ type: String })], De.prototype, "image", 2), Ie([b({ type: String })], De.prototype, "block1title", 2), Ie([b({ type: String })], De.prototype, "block1description", 2), Ie([b({ type: String })], De.prototype, "block1image", 2), Ie([b({ type: String })], De.prototype, "block2title", 2), Ie([b({ type: String })], De.prototype, "block2description", 2), Ie([b({ type: String })], De.prototype, "block2image", 2), Ie([b({ type: String })], De.prototype, "block3title", 2), Ie([b({ type: String })], De.prototype, "block3description", 2), Ie([b({ type: String })], De.prototype, "block3image", 2), Ie([b({ type: String })], De.prototype, "block4title", 2), Ie([b({ type: String })], De.prototype, "block4description", 2), Ie([b({ type: String })], De.prototype, "block4image", 2), Ie([b({ type: String })], De.prototype, "buttonText", 2), Ie([b({ type: String })], De.prototype, "buttonHref", 2), De = Ie([W("building-blocks")], De); var c1 = Object.defineProperty, d1 = Object.getOwnPropertyDescriptor, Ce = (t, e, r, i) => { for (var s, o = i > 1 ? void 0 : i ? d1(e, r) : e, n = t.length - 1; n >= 0; n--)(s = t[n]) && (o = (i ? s(e, r, o) : s(o)) || o); return i && o && c1(e, r, o), o }; let de = class extends (J()) {
-            constructor() { super(...arguments), this.heading = "How we work", this.description = "At Zipcio, we take a structured approach to CRM consulting. Our process ensures that your unique needs are met with precision and effectiveness.", this.step1number = "01.", this.step1title = "Discovery and Assessment", this.step1text = "We start by understanding your current CRM setup and identifying areas for improvement.", this.step1image = "/img/zipcio-3.jpeg", this.step2number = "02.", this.step2title = "Tailored Strategy Development", this.step2text = "Next, we create a customized strategy that addresses your specific challenges and goals.", this.step2image = "/img/zipcio-18.jpeg", this.step3number = "03.", this.step3title = "Implementation and Support", this.step3text = "Finally, we assist you in executing the strategy, ensuring you achieve optimal results.", this.step3image = "/img/business-06.jpeg", this.sideimage = "/img/zipcio-3.jpeg", this.step4number = "04.", this.step4title = "Ongoing growth partnership & revenue optimization", this.step4text = "", this.step4image = "https://www.zipcio.com/hubfs/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2958.jpg" } render() {
+            constructor() { super(...arguments), this.heading = "How we work", this.description = "At Zipcio, we take a structured approach to CRM consulting. Our process ensures that your unique needs are met with precision and effectiveness.", this.step1number = "01.", this.step1title = "Discovery and Assessment", this.step1text = "We start by understanding your current CRM setup and identifying areas for improvement.", this.step1image = "/img/zipcio-3.jpeg", this.step2number = "02.", this.step2title = "Tailored Strategy Development", this.step2text = "Next, we create a customized strategy that addresses your specific challenges and goals.", this.step2image = "/img/zipcio-18.jpeg", this.step3number = "03.", this.step3title = "Implementation and Support", this.step3text = "Finally, we assist you in executing the strategy, ensuring you achieve optimal results.", this.step3image = "/img/business-06.jpeg", this.sideimage = "/img/zipcio-3.jpeg", this.step4number = "04.", this.step4title = "Ongoing growth partnership & revenue optimization", this.step4text = "", this.step4image = "/ongoing-gr.png" } render() {
                 return E`
            <section class="section-default text-center">
                <h3 class="h3 mb-3 lg:mb-6 3xl:mb-12">${this.heading}</h3>
                <p class="p3 max-w-[370px] lg:max-w-[580px] 3xl:!max-w-[800px] mx-auto mb-12">${this.description}</p>
                <div class="lg:flex gap-6 w-full">
                    <div class="basis-full lg:basis-1/2">
-                       <div class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
+                       <div onmouseover="const img = this.closest('section').querySelector('.side-image'); if(img) img.src='${this.step1image}';" class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
                             <div class="flex items-start gap-4">
                                 <h6 class="h7 group-hover:text-orange-dark transition-all min-w-[60px] 3xl:min-w-[140px] text-left">${this.step1number}</h6>
                                 <div class="text-left flex flex-col gap-4">
@@ -1451,9 +1451,9 @@
                                     <span class="hidden group-hover:block text-p2 text-neutral-20/60">${this.step1text}</span>
                                 </div>
                             </div>
-                           <img src="${this.step1image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-cover w-full aspect-[37/28] rounded-2xl">
+                           <img src="${this.step1image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-contain w-full aspect-square rounded-2xl">
                         </div>
-                       <div class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
+                       <div onmouseover="const img = this.closest('section').querySelector('.side-image'); if(img) img.src='${this.step2image}';" class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
                            <div class="flex items-start gap-4">
                                <h6 class="h7 group-hover:text-orange-dark transition-all min-w-[60px] 3xl:min-w-[140px] text-left">${this.step2number}</h6>
                                <div class="text-left flex flex-col gap-4">
@@ -1461,9 +1461,9 @@
                                    <span class="hidden group-hover:block text-p2 text-neutral-20/60">${this.step2text}</span>
                                </div>
                            </div>
-                           <img src="${this.step2image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-cover w-full aspect-[37/28] rounded-2xl">
+                           <img src="${this.step2image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-contain w-full aspect-square rounded-2xl">
                        </div>
-                       <div class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
+                       <div onmouseover="const img = this.closest('section').querySelector('.side-image'); if(img) img.src='${this.step3image}';" class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
                            <div class="flex items-start gap-4">
                                <h6 class="h7 group-hover:text-orange-dark transition-all min-w-[60px] 3xl:min-w-[140px] text-left">${this.step3number}</h6>
                                <div class="text-left flex flex-col gap-4">
@@ -1471,9 +1471,9 @@
                                    <span class="hidden group-hover:block text-p2 text-neutral-20/60">${this.step3text}</span>
                                </div>
                            </div>
-                           <img src="${this.step3image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-cover w-full aspect-[37/28] rounded-2xl">
+                           <img src="${this.step3image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-contain w-full aspect-square rounded-2xl">
                        </div>
-                       <div class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
+                       <div onmouseover="const img = this.closest('section').querySelector('.side-image'); if(img) img.src='${this.step4image}';" class="relative border-t-[1px] border-neutral-70 before:absolute before:-top-[1px] before:w-[153px] hover:before:border-t-[1px] before:border-orange-dark before:left-0 py-8 opacity-30 hover:opacity-100 transition-all group">
                            <div class="flex items-start gap-4">
                                <h6 class="h7 group-hover:text-orange-dark transition-all min-w-[60px] 3xl:min-w-[140px] text-left">${this.step4number}</h6>
                                <div class="text-left flex flex-col gap-4">
@@ -1481,11 +1481,11 @@
                                    <span class="hidden group-hover:block text-p2 text-neutral-20/60">${this.step4text}</span>
                                </div>
                            </div>
-                           <img src="${this.step4image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-cover w-full aspect-[37/28] rounded-2xl">
+                           <img src="${this.step4image}" alt="image" class="mt-6 hidden group-hover:block lg:!hidden object-contain w-full aspect-square rounded-2xl">
                        </div>
                    </div>
-                   <div class="basis-1/2">
-                       <img src="${this.sideimage}" alt="image" class="hidden lg:block object-cover w-full h-full rounded-2xl">
+                   <div class="basis-1/2 flex items-center justify-center">
+                       <img src="${this.step1image}" alt="image" class="side-image hidden lg:block object-contain w-full aspect-square rounded-2xl transition-all duration-300">
                    </div>
                </div>
            </section>

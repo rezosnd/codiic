@@ -115,11 +115,10 @@ export default function Page() {
 <div class="span12 widget-span widget-type-custom_widget widget_1774384388649-hidden dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div id="hs_cos_wrapper_widget_1774384388649" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 <how-we-work heading="Created with Codiic" description="Powering the next generation of ecommerce brands." 
-  step1number="01." step1title="Enterprise-Level Security" step1text="" step1image="https://codiic.com/assets/img/theme-1.jpg" 
-  step2number="02." step2title="AI Customizer & Live Store Styling" step2text="" step2image="https://codiic.com/assets/img/theme-2.jpg" 
-  step3number="03." step3title="Scale Faster with Powerful Integrations" step3text="" step3image="https://codiic.com/assets/img/theme-3.jpg" 
-  step4number="04." step4title="Run High-Impact Marketing Campaigns" step4text="" step4image="https://codiic.com/assets/img/theme-4.jpg" 
-  sideimage="https://codiic.com/assets/img/Integrations.png"></how-we-work>
+  step1number="01." step1title="Enterprise-Level Security" step1text="" step1image="/Enterprise-level.png" 
+  step2number="02." step2title="AI Customizer & Live Store Styling" step2text="" step2image="/ai-cus.png" 
+  step3number="03." step3title="Scale Faster with Powerful Integrations" step3text="" step3image="/scale.png" 
+  step4number="04." step4title="Ongoing Growth & Revenue Optimization" step4text="" step4image="/ongoing-gr.png"></how-we-work>
 </div>
 
 </div><!--end widget-span -->
@@ -262,27 +261,6 @@ export default function Page() {
 </div><!--end row-->
 </div><!--end row-wrapper -->
 
-<div class="row-fluid-wrapper row-depth-1 row-number-15 dnd-section">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-<div class="row-fluid-wrapper row-depth-1 row-number-16 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1774436797580" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<contact-section id="contact" image="https://43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/hero-girl-1.jpeg">
-    <script src="https://js.hsforms.net/forms/embed/43675023.js" defer></script>
-<div class="hs-form-frame" data-region="na1" data-form-id="ecd9e5f4-8e72-413d-a975-9dcb6e0c197f" data-portal-id="43675023"></div>
-</contact-section>
-</div>
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
 
 <div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-section">
 <div class="row-fluid ">
@@ -344,22 +322,6 @@ export default function Page() {
 </div><!--end row-->
 </div><!--end row-wrapper -->
 
-<div class="row-fluid-wrapper row-depth-1 row-number-21 main_dnd-row-7-force-full-width-section main_dnd-row-7-background-layers main_dnd-row-7-background-color dnd-section main_dnd-row-7-padding">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-<div class="row-fluid-wrapper row-depth-1 row-number-22 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_module_17633784222185" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_module_17633784222185_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p style="font-size: 10px; text-align: center;"><span style="color: #ffffff;">Disclaimer: Any performance metrics, percentages, or outcomes displayed on this website represent selected client results achieved in specific circumstances and are provided for illustrative purposes only. These results are not typical, are not average, and should not be relied upon as a representation of expected or guaranteed performance.<br>Individual results will vary materially based on numerous factors, including but not limited to industry, business model, starting conditions, strategy execution, budget, internal resources, data quality, and market conditions. Codiic does not guarantee any specific results, performance levels, revenue increases, or financial outcomes.<br>All claims are supported by internal analysis, client-reported data, or publicly available information believed to be reliable at the time presented; however, results may change over time and outcomes cannot be predicted with certainty.<br>Codiic is an independent platform and is not affiliated with, sponsored by, or endorsed by Meta Platforms, Inc.<br></span></p></span></div>
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
 
 </div><!--end widget-span -->
 </div>
