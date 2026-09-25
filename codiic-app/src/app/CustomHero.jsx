@@ -75,8 +75,8 @@ export default function CustomHero() {
               const zIndex = cards.length - diff;
               
               // Fanning effect (up and right slightly)
-              const translateY = diff * -25; // move up
-              const translateX = diff * 25; // move right
+              const translateY = diff * -22.5; // move up
+              const translateX = diff * 22.5; // move right
               const scale = 1 - (diff * 0.05); // shrink slightly
               
               return (
@@ -88,7 +88,7 @@ export default function CustomHero() {
                     opacity: isVisible ? 1 - (diff * 0.15) : 0,
                     transform: isVisible 
                       ? \`translate3d(\${translateX}px, \${translateY}px, 0) scale(\${scale})\`
-                      : \`translate3d(100px, -100px, 0) scale(0.8) opacity-0\`,
+                      : \`translate3d(81px, -81px, 0) scale(0.8) opacity-0\`,
                     pointerEvents: diff === 0 ? 'auto' : 'none'
                   }}
                   onClick={() => setActiveIndex(i)}

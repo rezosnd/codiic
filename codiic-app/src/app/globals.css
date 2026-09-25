@@ -82,13 +82,13 @@ body {
   display: block !important;
 }
 .main_dnd-row-6-padding {
-  padding-top: 80px !important;
+  padding-top: 64.8px !important;
 }
 .main_dnd-row-7-padding {
-  padding-top: 20px !important;
-  padding-bottom: 50px !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
+  padding-top: 16.2px !important;
+  padding-bottom: 40.5px !important;
+  padding-left: 40.5px !important;
+  padding-right: 40.5px !important;
 }
 .main_dnd-row-7-background-layers {
   background-image: linear-gradient(rgba(8, 8, 79, 1), rgba(8, 8, 79, 1)) !important;
@@ -119,21 +119,21 @@ a.cta_button {
 }
 .hs-breadcrumb-menu-item {
   float: left;
-  padding: 10px 0px 10px 10px;
+  padding: 8.1px 0px 8.1px 10px;
 }
 .hs-breadcrumb-menu-divider:before {
   content: '›';
-  padding-left: 10px;
+  padding-left: 8.1px;
 }
 .hs-featured-image-link {
   border: 0;
 }
 .hs-featured-image {
   float: right;
-  margin: 0 0 20px 20px;
+  margin: 0 0 16.2px 20px;
   max-width: 50%;
 }
-@media (max-width: 568px) {
+@media (max-width: 460.08px) {
   .hs-featured-image {
     float: none;
     margin: 0;
@@ -147,4 +147,10 @@ a.cta_button {
   overflow: hidden;
   position: absolute !important;
   width: 1px;
+}
+
+/* Hide undefined web components to prevent FOUC */
+:not(:defined) {
+  opacity: 0;
+  visibility: hidden;
 }
