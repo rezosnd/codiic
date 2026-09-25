@@ -96,9 +96,10 @@ export default function Page() {
 <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div id="hs_cos_wrapper_widget_1774350278165" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 <building-blocks leading="" image="https://codiic.com/assets/img/Online%20Store.png" 
-  block1title="AI CUSTOMIZER & LIVE STORE STYLING" block1description="Realtime Color Palette, Button Styles, Font Choices, and Layout Grids. AI Personalization ON." block1image="https://codiic.com/assets/img/automation.png" 
-  block2title="LIGHTNING FAST STOREFRONTS" block2description="Optimized storefronts that load instantly and convert better. Rated 4.9/5 by our customers." block2image="https://codiic.com/assets/img/seo.png" 
-  block3title="SMART AUTOMATION TOOLS" block3description="Abandoned cart recovery, email flows, and marketing automation built-in. SEO Booster & Smart Chatbots." block3image="https://codiic.com/assets/img/chatbot.png" 
+  block1title="CONVERSION-DRIVEN DESIGN" block1description="Transform casual browsers into loyal customers. Our pre-built, highly optimized layouts use data-backed UX principles, strategic call-to-actions, and frictionless checkout flows to maximize your store's conversion rate from day one." block1image="/CONVERSION.png" 
+  block2title="LIGHTNING FAST STOREFRONTS" block2description="Speed equals revenue. Experience blazing-fast load times with our optimized architecture, edge caching, and next-gen image delivery. Convert better, rank higher on Google, and keep customers engaged without the wait. Rated 4.9/5." block2image="/LIGHTNING.png" 
+  block3title="SMART AUTOMATION TOOLS" block3description="Put your marketing on autopilot. Seamlessly recover abandoned carts, trigger personalized email sequences, and deploy smart AI chatbots that sell while you sleep. Built-in SEO boosters ensure you're always visible to the right audience." block3image="/SMART.png" 
+  block4title="ENTERPRISE E-COMMERCE" block4description="Scale infinitely without the enterprise price tag. Our robust architecture handles massive traffic spikes securely, offering advanced inventory management, global multi-currency support, and powerful API integrations for a complete ecosystem." block4image="/ENTERPRISE.png" 
   buttontext="Get Started" buttonhref="https://dashboard.codiic.com/login">
     <div class="inline" slot="title1">Proven Growth for</div>
     <div class="inline" slot="title2">Every E-Commerce Business</div>

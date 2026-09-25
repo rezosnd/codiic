@@ -543,14 +543,268 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Black Canvas -->
-                    <div class="horiz-section black-canvas-container overflow-hidden relative bg-black w-[100vw] h-screen shrink-0">
-                        <div class=" w-full h-screen">
-                            <video class="w-full h-full object-contain" autoplay muted loop playsinline>
-                                <source src="https://43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/Zipcio%20CRM%20Animation.mp4" type="video/mp4">
-                            </video>
+                    <!-- Custom How Codiic Works Horizontal Sections (Ultra-Premium Bento Grid Aesthetic) -->
+                    <style>
+                    @keyframes hwwFloat {
+                      0%, 100% { transform: translateY(0) rotate(0deg) translateZ(50px); }
+                      50% { transform: translateY(-20px) rotate(5deg) translateZ(50px); }
+                    }
+                    @keyframes hwwPulse {
+                      0%, 100% { opacity: 0.5; transform: scale(1); }
+                      50% { opacity: 1; transform: scale(1.05); }
+                    }
+                    .hww-float { animation: hwwFloat 6s ease-in-out infinite; }
+                    .hww-float-2 { animation: hwwFloat 6s ease-in-out infinite; animation-delay: -2s; }
+                    .hww-pulse { animation: hwwPulse 4s ease-in-out infinite; }
+                    
+                    /* Modern Glassmorphic Pill Button */
+                    .hww-pill-btn {
+                        display: inline-flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 8px;
+                        background-color: white;
+                        color: #000;
+                        font-weight: 600;
+                        font-size: 16px;
+                        height: 52px;
+                        padding: 0 28px;
+                        border-radius: 9999px;
+                        transition: all 0.3s ease;
+                        font-family: 'Inter', sans-serif;
+                        box-shadow: 0 4px 14px rgba(255,255,255,0.1);
+                    }
+                    .hww-pill-btn:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 8px 24px rgba(255,255,255,0.2);
+                        background-color: #f0f0f0;
+                    }
+                    
+                    /* Bento Card Glass Style */
+                    .hww-bento-glass {
+                        background: rgba(255, 255, 255, 0.03);
+                        backdrop-filter: blur(20px);
+                        -webkit-backdrop-filter: blur(20px);
+                        border: 1px solid rgba(255, 255, 255, 0.1);
+                        border-radius: 32px;
+                        box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5);
+                    }
+                    @keyframes hww-spin-slow {
+                        100% { transform: rotate(360deg); }
+                    }
+                    .hww-spin-slow { animation: hww-spin-slow 20s linear infinite; }
+                    @keyframes hww-float-complex {
+                        0%, 100% { transform: translateY(0) rotate(0deg); }
+                        25% { transform: translateY(-15px) rotate(2deg); }
+                        50% { transform: translateY(-30px) rotate(-1deg); }
+                        75% { transform: translateY(-15px) rotate(-2deg); }
+                    }
+                    .hww-float-complex { animation: hww-float-complex 12s ease-in-out infinite; }
+                    @keyframes hww-float-slow {
+                        0%, 100% { transform: translateY(0) rotate(0deg) scale(1); }
+                        50% { transform: translateY(-25px) rotate(-2deg) scale(1.03); }
+                    }
+                    .hww-float-slow { animation: hww-float-slow 14s ease-in-out infinite; }
+                    @keyframes hww-glow-pulse {
+                        0%, 100% { opacity: 0.15; transform: scale(1); }
+                        50% { opacity: 0.4; transform: scale(1.08); }
+                    }
+                    .hww-glow-pulse { animation: hww-glow-pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+                    @keyframes hww-slide-up {
+                        from { opacity: 0; transform: translateY(60px); }
+                        to { opacity: 1; transform: translateY(0); }
+                    }
+                    .hww-slide-up { animation: hww-slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards; }
+                    .hww-slide-up-d1 { animation: hww-slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) 0.15s forwards; opacity: 0; }
+                    .hww-slide-up-d2 { animation: hww-slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) 0.3s forwards; opacity: 0; }
+                    .hww-slide-up-d3 { animation: hww-slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) 0.45s forwards; opacity: 0; }
+                    @keyframes hww-shimmer {
+                        0% { background-position: -200% center; }
+                        100% { background-position: 200% center; }
+                    }
+                    .hww-heading {
+                        font-family: 'Druk Wide Cy Web', 'Impact', 'Arial Black', sans-serif;
+                        font-weight: 800;
+                        font-size: 80px;
+                        text-transform: uppercase;
+                        line-height: 0.85;
+                        letter-spacing: -0.04em;
+                        color: #fff;
+                        text-shadow: 0 4px 30px rgba(0,0,0,0.3);
+                    }
+                    .hww-heading-accent-pink { color: #f9a8d4; }
+                    .hww-heading-accent-green { color: #6ee7b7; }
+                    .hww-heading-accent-yellow { color: #fde047; }
+                    .hww-sub-label {
+                        font-family: 'JetBrains Mono', 'SF Mono', monospace;
+                        font-weight: 700;
+                        font-size: 20px;
+                        letter-spacing: 0.2em;
+                        text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+                    }
+                    .hww-body-text {
+                        font-family: 'Inter', 'Segoe UI', sans-serif;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 1.7;
+                        max-width: 540px;
+                    }
+                    .hww-cta-btn {
+                        display: inline-flex;
+                        align-items: center;
+                        gap: 12px;
+                        padding: 16px 36px;
+                        border-radius: 999px;
+                        font-size: 17px;
+                        font-weight: 700;
+                        font-family: 'Inter', sans-serif;
+                        text-decoration: none;
+                        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                        box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+                    }
+                    .hww-cta-btn:hover {
+                        transform: translateY(-3px) scale(1.02);
+                        box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+                    }
+                    .hww-img-wrapper {
+                        width: 100%;
+                        max-width: 650px;
+                        aspect-ratio: 1;
+                        overflow: hidden;
+                        -webkit-mask-image: radial-gradient(circle at center, black 20%, transparent 68%);
+                        mask-image: radial-gradient(circle at center, black 20%, transparent 68%);
+                    }
+                    .hww-img-wrapper img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        mix-blend-mode: screen;
+                        filter: blur(40px);
+                        transform: scale(1.15);
+                    }
+                    @media (min-width: 1024px) {
+                        .hww-heading { font-size: 120px; }
+                        .hww-body-text { font-size: 20px; }
+                        .hww-img-wrapper { max-width: 700px; }
+                    }
+                    @media (min-width: 1280px) {
+                        .hww-heading { font-size: 145px; }
+                    }
+                    @media (max-width: 1023px) {
+                        .hww-heading { font-size: 52px; }
+                        .hww-body-text { font-size: 16px; }
+                        .hww-img-wrapper { max-width: 400px; }
+                    }
+                    @media (max-width: 640px) {
+                        .hww-heading { font-size: 40px; }
+                        .hww-sub-label { font-size: 14px; }
+                        .hww-body-text { font-size: 15px; }
+                        .hww-cta-btn { padding: 14px 28px; font-size: 15px; }
+                        .hww-img-wrapper { max-width: 300px; }
+                    }
+                    </style>
+                    
+
+                    <!-- Panel 1: Title Panel -->
+                    <div class="horiz-section hww-custom-panel shrink-0 w-[100vw] h-screen flex flex-col lg:flex-row items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #2563eb 0%, #1e40af 40%, #0f172a 100%);">
+                        <!-- Ambient Glow -->
+                        <div class="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+                            <div style="width: 70vw; height: 70vw; max-width: 700px; max-height: 700px; border-radius: 50%; background: rgba(59,130,246,0.35); filter: blur(100px);" class="hww-glow-pulse"></div>
+                        </div>
+                        <!-- Text Content -->
+                        <div style="flex: 1; position: relative; z-index: 20; padding: 0 24px 0 40px; max-width: 760px;">
+                            <p class="hww-sub-label hww-slide-up" style="color: #93c5fd; margin-bottom: 20px;">AI-POWERED WORKFLOW</p>
+                            <h2 class="hww-heading hww-slide-up-d1" style="margin-bottom: 28px; white-space: nowrap;">
+                                HOW CODIIC<br/>WORKS
+                            </h2>
+                            <p class="hww-body-text hww-slide-up-d2" style="color: #bfdbfe;">An intelligent, AI-driven ecosystem designed to generate, customize, and scale your e-commerce presence effortlessly.</p>
+                        </div>
+                        <!-- 3D Image -->
+                        <div style="flex: 1; display: flex; justify-content: center; align-items: center; position: relative; z-index: 10; padding-right: 40px;">
+                            <div class="hww-img-wrapper hww-float-complex">
+                                <img src="/mockups/panel1_abs.jpg" alt="How it works">
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Panel 2: Generate -->
+                    <div class="horiz-section hww-custom-panel shrink-0 w-[100vw] h-screen flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 40%, #1e1033 100%);">
+                        <!-- Ambient Glow -->
+                        <div class="absolute pointer-events-none" style="left: -15%; top: -10%; width: 800px; height: 800px; border-radius: 50%; background: rgba(168,85,247,0.3); filter: blur(100px;" class="hww-glow-pulse"></div>
+                        <div style="max-width: 1600px; width: 100%; display: flex; flex-direction: row; align-items: center; padding: 0 40px; gap: 60px; position: relative; z-index: 10;" class="flex-col lg:flex-row">
+                            <!-- Text Content -->
+                            <div style="flex: 1; position: relative; z-index: 20;">
+                                <p class="hww-sub-label hww-slide-up" style="color: #c4b5fd; margin-bottom: 16px;">/ 01</p>
+                                <h3 class="hww-heading hww-slide-up-d1" style="margin-bottom: 24px; white-space: nowrap;">
+                                    GENERATE<br/><span class="hww-heading-accent-pink">INSTANTLY</span>
+                                </h3>
+                                <p class="hww-body-text hww-slide-up-d2" style="color: #ddd6fe; margin-bottom: 36px;">Leverage advanced AI to generate a complete, professional e-commerce storefront in seconds. Just provide your business details, and Codiic writes the code.</p>
+                                <a href="#" class="hww-cta-btn hww-slide-up-d3" style="background: #fff; color: #5b21b6;">
+                                    Start Generating
+                                    <svg style="width:20px;height:20px;" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.3335 23.1668L22.6668 9.8335M22.6668 9.8335H12.0002M22.6668 9.8335V20.5002" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </div>
+                            <!-- 3D Image -->
+                            <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;">
+                                <div class="hww-img-wrapper hww-float-slow">
+                                    <img src="/mockups/panel2_abs.jpg" alt="Generate Instantly">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel 3: Customize -->
+                    <div class="horiz-section hww-custom-panel shrink-0 w-[100vw] h-screen flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #059669 0%, #047857 40%, #022c22 100%);">
+                        <!-- Ambient Glow -->
+                        <div class="absolute pointer-events-none" style="right: -15%; top: -10%; width: 800px; height: 800px; border-radius: 50%; background: rgba(52,211,153,0.3); filter: blur(100px);" class="hww-glow-pulse"></div>
+                        <div style="max-width: 1600px; width: 100%; display: flex; flex-direction: row-reverse; align-items: center; padding: 0 40px; gap: 60px; position: relative; z-index: 10;" class="flex-col lg:flex-row-reverse">
+                            <!-- Text Content -->
+                            <div style="flex: 1; position: relative; z-index: 20;">
+                                <p class="hww-sub-label hww-slide-up" style="color: #a7f3d0; margin-bottom: 16px;">/ 02</p>
+                                <h3 class="hww-heading hww-slide-up-d1" style="margin-bottom: 24px; white-space: nowrap;">
+                                    SMART<br/><span class="hww-heading-accent-green">CUSTOMIZE</span>
+                                </h3>
+                                <p class="hww-body-text hww-slide-up-d2" style="color: #d1fae5; margin-bottom: 36px;">Our intelligent builder dynamically adapts to your brand identity. Tweak layouts, customize themes, and let AI optimize your conversion paths automatically.</p>
+                                <a href="#" class="hww-cta-btn hww-slide-up-d3" style="background: #064e3b; color: #fff;">
+                                    Explore Themes
+                                    <svg style="width:20px;height:20px;" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.3335 23.1668L22.6668 9.8335M22.6668 9.8335H12.0002M22.6668 9.8335V20.5002" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </div>
+                            <!-- 3D Image -->
+                            <div style="flex: 1; display: flex; justify-content: flex-start; align-items: center;">
+                                <div class="hww-img-wrapper hww-float-complex" style="animation-delay: -3s;">
+                                    <img src="/mockups/panel3_abs.jpg" alt="Smart Customization">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Panel 4: Scale -->
+                    <div class="horiz-section hww-custom-panel shrink-0 w-[100vw] h-screen flex items-center justify-center relative overflow-hidden" style="background: linear-gradient(135deg, #ea580c 0%, #c2410c 40%, #431407 100%);">
+                        <!-- Ambient Glow -->
+                        <div class="absolute pointer-events-none" style="left: -15%; top: -10%; width: 800px; height: 800px; border-radius: 50%; background: rgba(251,146,60,0.3); filter: blur(100px);" class="hww-glow-pulse"></div>
+                        <div style="max-width: 1600px; width: 100%; display: flex; flex-direction: row; align-items: center; padding: 0 40px; gap: 60px; position: relative; z-index: 10;" class="flex-col lg:flex-row">
+                            <!-- Text Content -->
+                            <div style="flex: 1; position: relative; z-index: 20;">
+                                <p class="hww-sub-label hww-slide-up" style="color: #fed7aa; margin-bottom: 16px;">/ 03</p>
+                                <h3 class="hww-heading hww-slide-up-d1" style="margin-bottom: 24px; white-space: nowrap;">
+                                    SCALE<br/><span class="hww-heading-accent-yellow">INTELLIGENTLY</span>
+                                </h3>
+                                <p class="hww-body-text hww-slide-up-d2" style="color: #ffedd5; margin-bottom: 36px;">Monitor AI-powered analytics, integrate global payment gateways, and run predictive marketing campaigns to accelerate growth without breaking a sweat.</p>
+                                <a href="#" class="hww-cta-btn hww-slide-up-d3" style="background: #fff; color: #9a3412;">
+                                    View Features
+                                    <svg style="width:20px;height:20px;" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.3335 23.1668L22.6668 9.8335M22.6668 9.8335H12.0002M22.6668 9.8335V20.5002" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                </a>
+                            </div>
+                            <!-- 3D Image -->
+                            <div style="flex: 1; display: flex; justify-content: flex-end; align-items: center;">
+                                <div class="hww-img-wrapper hww-float-slow" style="animation-delay: -6s;">
+                                    <img src="/mockups/panel4_abs.jpg" alt="Scale Intelligently">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     
                     <!-- Content Boxes! -->
                     ${['/store_setup.png', '/choose_theme.png', '/cutomize_design.png', '/import_product.png', '/connnect_payment.png', '/launch_store.png', '/automation.png'].map((src, i) => E`
@@ -1072,8 +1326,45 @@
             </section>
         `}
         }; ui([b({ type: String })], Br.prototype, "color", 2), ui([b({ type: String })], Br.prototype, "heading", 2), ui([b({ type: String })], Br.prototype, "headingHighlight", 2), ui([b({ type: String })], Br.prototype, "headingMiddle", 2), ui([b({ type: String })], Br.prototype, "body", 2), ui([b({ type: String })], Br.prototype, "mainImage", 2), ui([b({ type: String })], Br.prototype, "accentImage", 2), Br = ui([W("success-growth")], Br); var l1 = Object.defineProperty, p1 = Object.getOwnPropertyDescriptor, Ie = (t, e, r, i) => { for (var s, o = i > 1 ? void 0 : i ? p1(e, r) : e, n = t.length - 1; n >= 0; n--)(s = t[n]) && (o = (i ? s(e, r, o) : s(o)) || o); return i && o && l1(e, r, o), o }; let De = class extends (J()) {
-            constructor() { super(...arguments), this.leading = "", this.image = "", this.block1title = "", this.block1description = "", this.block1image = "", this.block2title = "", this.block2description = "", this.block2image = "", this.block3title = "", this.block3description = "", this.block3image = "", this.buttonText = "", this.buttonHref = "" } render() {
+            constructor() { super(...arguments), this.leading = "", this.image = "", this.block1title = "", this.block1description = "", this.block1image = "", this.block2title = "", this.block2description = "", this.block2image = "", this.block3title = "", this.block3description = "", this.block3image = "", this.block4title = "", this.block4description = "", this.block4image = "", this.buttonText = "", this.buttonHref = "" } 
+            firstUpdated() {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+                            entry.target.classList.add('animated');
+                            const text = entry.target.getAttribute('data-text');
+                            if (!text) return;
+                            entry.target.innerHTML = '';
+                            const textNode = document.createElement('span');
+                            const cursor = document.createElement('span');
+                            cursor.className = 'typing-cursor';
+                            cursor.innerHTML = '|';
+                            entry.target.appendChild(textNode);
+                            entry.target.appendChild(cursor);
+                            let i = 0;
+                            const speed = 15;
+                            const type = () => {
+                                if (i < text.length) {
+                                    textNode.innerHTML += text.charAt(i);
+                                    i++;
+                                    setTimeout(type, speed);
+                                } else {
+                                    setTimeout(() => { cursor.style.display = 'none'; }, 2000);
+                                }
+                            };
+                            setTimeout(type, 300);
+                        }
+                    });
+                }, { threshold: 0.1 });
+                const root = this.shadowRoot || this;
+                root.querySelectorAll('.type-target').forEach(el => observer.observe(el));
+            }
+            render() {
                 return E`
+                <style>
+                    .typing-cursor { font-weight: bold; animation: blink 1s step-end infinite; color: currentColor; margin-left: 2px; }
+                    @keyframes blink { 50% { opacity: 0; } }
+                </style>
            <section class="section-default text-center">
                ${"" !== this.leading ? E`<h4 class="t5 !text-neutral-10 mb-14">${this.leading}</h4>` : ""}
                <h3 class="h3 max-w-[400px] lg:max-w-[900px] 3xl:max-w-[1320px] mx-auto mb-12">
@@ -1081,36 +1372,70 @@
                    ${this.image ? E`<img src="${this.image}" alt="cube" class="object-cover w-[120px] 3xl:w-[234px] h-[94px] 3xl:h-[172px] hidden lg:inline-block rounded-xl relative -top-3 3xl:-top-6">` : ""}
                    <slot name="title2"></slot>
                </h3>
-               <color-box classNames="flex flex-col lg:flex-row-reverse lg:gap-8 3xl:gap-16 mb-4 3xl:mb-8">
+                <color-box classNames="flex flex-col lg:flex-row-reverse lg:gap-8 3xl:gap-16 mb-4 3xl:mb-8">
                    <div class="mb-8 lg:mb-0 py-3 mt-auto lg:mt-3 grow flex flex-col justify-between">
                        <img src="${"//43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/raw_assets/public/ZipcioTheme/img/icon-1.svg"}" alt="icon" class="object-cover size-[44px] lg:size-[52px] 3xl:size-[100px] mb-4 lg:mb-[137px]">
-                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px]">${this.block1title}</h4>
-                       <p class="text-p2 text-left text-neutral-10/60">${this.block1description}</p>
+                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px] relative">
+                           <span class="invisible block">${this.block1title}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block1title}"></span>
+                       </h4>
+                       <p class="text-p2 text-left text-neutral-10/60 relative">
+                           <span class="invisible block">${this.block1description}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block1description}"></span>
+                       </p>
                    </div>
-                   <img class="aspect-[338/240] lg:aspect-[320/368] rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-cover" src="${this.block1image}" alt="consultant">
+                   <img class="aspect-square rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-contain" src="${this.block1image}" alt="consultant">
                </color-box>
                <color-box classNames="flex flex-col lg:flex-row-reverse lg:gap-8 3xl:gap-16 mb-4 3xl:mb-8 bg-orange">
                    <div class="mb-8 lg:mb-0 py-3 mt-auto lg:mt-3 grow flex flex-col justify-between">
                        <img src="${"//43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/raw_assets/public/ZipcioTheme/img/icon-2.svg"}" alt="icon" class="object-cover size-[44px] lg:size-[52px] 3xl:size-[100px] mb-4 lg:mb-[137px]">
-                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px]">${this.block2title}</h4>
-                       <p class="text-p2 text-left text-neutral-10/60">${this.block2description}</p>
+                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px] relative">
+                           <span class="invisible block">${this.block2title}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block2title}"></span>
+                       </h4>
+                       <p class="text-p2 text-left text-neutral-10/60 relative">
+                           <span class="invisible block">${this.block2description}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block2description}"></span>
+                       </p>
                    </div>
-                   <img class="aspect-[338/240] lg:aspect-[320/368] rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-cover" src="${this.block2image}" alt="consultant">
+                   <img class="aspect-square rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-contain" src="${this.block2image}" alt="consultant">
                </color-box>
                <color-box classNames="flex flex-col lg:flex-row-reverse lg:gap-8 3xl:gap-16 mb-4 3xl:mb-8 bg-green">
                    <div class="relative mb-8 lg:mb-0 py-3 mt-auto lg:mt-3 grow flex flex-col justify-between">
                        <img src="${"//43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/raw_assets/public/ZipcioTheme/img/icon-3.svg"}" alt="icon" class="object-cover size-[44px] lg:size-[52px] 3xl:size-[100px] mb-4 lg:mb-[137px]">
-                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px]">${this.block3title}</h4>
-                       <p class="text-p2 text-left text-neutral-10/60">${this.block3description}</p>
+                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px] relative">
+                           <span class="invisible block">${this.block3title}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block3title}"></span>
+                       </h4>
+                       <p class="text-p2 text-left text-neutral-10/60 relative">
+                           <span class="invisible block">${this.block3description}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block3description}"></span>
+                       </p>
+                   </div>
+                   <img class="aspect-square rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-contain" src="${this.block3image}" alt="consultant">
+               </color-box>
+               ${this.block4title ? E`
+               <color-box classNames="flex flex-col lg:flex-row-reverse lg:gap-8 3xl:gap-16 mb-4 3xl:mb-8 bg-purple">
+                   <div class="relative mb-8 lg:mb-0 py-3 mt-auto lg:mt-3 grow flex flex-col justify-between">
+                       <img src="${"//43675023.fs1.hubspotusercontent-na1.net/hubfs/43675023/raw_assets/public/ZipcioTheme/img/icon-1.svg"}" alt="icon" class="object-cover size-[44px] lg:size-[52px] 3xl:size-[100px] mb-4 lg:mb-[137px]">
+                       <h4 class="h4 lg:h6 text-left mb-4 3xl:mb-8 lg:mt-auto lg:text-[88px] 3xl:text-[160px] relative">
+                           <span class="invisible block">${this.block4title}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block4title}"></span>
+                       </h4>
+                       <p class="text-p2 text-left text-neutral-10/60 relative">
+                           <span class="invisible block">${this.block4description}</span>
+                           <span class="absolute top-0 left-0 w-full h-full type-target" data-text="${this.block4description}"></span>
+                       </p>
                        <div class="flex gap-2 mt-6 lg:mt-5 lg:absolute top-0 right-8">
                            <icon-button classNames="bg-white" buttonText="${this.buttonText}" buttonHref="${this.buttonHref}"></icon-button>
                        </div>
                    </div>
-                   <img class="aspect-[338/240] lg:aspect-[320/368] rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-cover" src="${this.block3image}" alt="consultant">
+                   <img class="aspect-square rounded-xl lg:rounded-2xl 3xl:rounded-3xl lg:w-[320px] 3xl:w-[600px] object-contain" src="${this.block4image}" alt="consultant">
                </color-box>
+               ` : ''}
            </section>
         `}
-        }; Ie([b({ type: String })], De.prototype, "leading", 2), Ie([b({ type: String })], De.prototype, "image", 2), Ie([b({ type: String })], De.prototype, "block1title", 2), Ie([b({ type: String })], De.prototype, "block1description", 2), Ie([b({ type: String })], De.prototype, "block1image", 2), Ie([b({ type: String })], De.prototype, "block2title", 2), Ie([b({ type: String })], De.prototype, "block2description", 2), Ie([b({ type: String })], De.prototype, "block2image", 2), Ie([b({ type: String })], De.prototype, "block3title", 2), Ie([b({ type: String })], De.prototype, "block3description", 2), Ie([b({ type: String })], De.prototype, "block3image", 2), Ie([b({ type: String })], De.prototype, "buttonText", 2), Ie([b({ type: String })], De.prototype, "buttonHref", 2), De = Ie([W("building-blocks")], De); var c1 = Object.defineProperty, d1 = Object.getOwnPropertyDescriptor, Ce = (t, e, r, i) => { for (var s, o = i > 1 ? void 0 : i ? d1(e, r) : e, n = t.length - 1; n >= 0; n--)(s = t[n]) && (o = (i ? s(e, r, o) : s(o)) || o); return i && o && c1(e, r, o), o }; let de = class extends (J()) {
+        }; Ie([b({ type: String })], De.prototype, "leading", 2), Ie([b({ type: String })], De.prototype, "image", 2), Ie([b({ type: String })], De.prototype, "block1title", 2), Ie([b({ type: String })], De.prototype, "block1description", 2), Ie([b({ type: String })], De.prototype, "block1image", 2), Ie([b({ type: String })], De.prototype, "block2title", 2), Ie([b({ type: String })], De.prototype, "block2description", 2), Ie([b({ type: String })], De.prototype, "block2image", 2), Ie([b({ type: String })], De.prototype, "block3title", 2), Ie([b({ type: String })], De.prototype, "block3description", 2), Ie([b({ type: String })], De.prototype, "block3image", 2), Ie([b({ type: String })], De.prototype, "block4title", 2), Ie([b({ type: String })], De.prototype, "block4description", 2), Ie([b({ type: String })], De.prototype, "block4image", 2), Ie([b({ type: String })], De.prototype, "buttonText", 2), Ie([b({ type: String })], De.prototype, "buttonHref", 2), De = Ie([W("building-blocks")], De); var c1 = Object.defineProperty, d1 = Object.getOwnPropertyDescriptor, Ce = (t, e, r, i) => { for (var s, o = i > 1 ? void 0 : i ? d1(e, r) : e, n = t.length - 1; n >= 0; n--)(s = t[n]) && (o = (i ? s(e, r, o) : s(o)) || o); return i && o && c1(e, r, o), o }; let de = class extends (J()) {
             constructor() { super(...arguments), this.heading = "How we work", this.description = "At Zipcio, we take a structured approach to CRM consulting. Our process ensures that your unique needs are met with precision and effectiveness.", this.step1number = "01.", this.step1title = "Discovery and Assessment", this.step1text = "We start by understanding your current CRM setup and identifying areas for improvement.", this.step1image = "/img/zipcio-3.jpeg", this.step2number = "02.", this.step2title = "Tailored Strategy Development", this.step2text = "Next, we create a customized strategy that addresses your specific challenges and goals.", this.step2image = "/img/zipcio-18.jpeg", this.step3number = "03.", this.step3title = "Implementation and Support", this.step3text = "Finally, we assist you in executing the strategy, ensuring you achieve optimal results.", this.step3image = "/img/business-06.jpeg", this.sideimage = "/img/zipcio-3.jpeg", this.step4number = "04.", this.step4title = "Ongoing growth partnership & revenue optimization", this.step4text = "", this.step4image = "https://www.zipcio.com/hubfs/DTS_New_Age_of_Work_Alex_Tan_Photos_ID2958.jpg" } render() {
                 return E`
            <section class="section-default text-center">
