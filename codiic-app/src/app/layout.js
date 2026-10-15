@@ -6,12 +6,18 @@ export const metadata = {
   description: 'Launch faster. Sell smarter.',
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
         <link rel="stylesheet" href="/template_main.min.css?v=3" />
-        <link rel="stylesheet" href="https://cdn2.hubspot.net/hub/-1/hub_generated/template_assets/1495141174000/hubspot/hubspot_default/shared/responsive/layout.min.css" />
       </head>
       <body suppressHydrationWarning>
         <div className="hs-content-id-209847509092 hs-site-page page">

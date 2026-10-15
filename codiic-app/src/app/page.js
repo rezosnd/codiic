@@ -17,11 +17,11 @@ export default function Page() {
 <div id="hs_cos_wrapper_widget_1741551298453" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 <nav-bar home="true" bookurl="https://app.codiic.com">
     <ul slot="desktop" class="flex flex-nowrap">
+        <li class="menu-item"><a href="/">Home</a></li>
         <li class="menu-item"><a href="/demo">Demo</a></li>
         <li class="menu-item"><a href="/themes">Themes</a></li>
         <li class="menu-item"><a href="https://app.codiic.com/login">Pricing</a></li>
         <li class="menu-item"><a href="/contact">Contact</a></li>
-        <li class="menu-item"><a href="https://app.codiic.com/login">Log in</a></li>
     </ul>
     <menu slot="mobile-1">
         <li class="mobile-menu-item"><a href="/">Home <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
@@ -31,7 +31,6 @@ export default function Page() {
     </menu>
     <menu slot="mobile-2">
         <li class="mobile-menu-item"><a href="/contact">Contact <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-        <li class="mobile-menu-item"><a href="https://app.codiic.com/login">Log in <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
         <li class="mobile-menu-item"><a href="https://app.codiic.com">Start for ₹1/Day <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
     </menu>
 </nav-bar>
@@ -676,7 +675,7 @@ export default function Page() {
       <!-- Service 1 -->
       <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
         <div style="height:170px; overflow:hidden; background:#F1F5F9;">
-          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-5.jpg" alt="Small Shops & Retail Stores" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+          <img class="cd-img-zoom" src="/small_shop.png" alt="Small Shops & Retail Stores" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
         </div>
         <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
           <div>
@@ -697,7 +696,7 @@ export default function Page() {
       <!-- Service 2 -->
       <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
         <div style="height:170px; overflow:hidden; background:#F1F5F9;">
-          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-6.jpg" alt="Creators & Freelancers" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+          <img class="cd-img-zoom" src="/creators.png" alt="Creators & Freelancers" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
         </div>
         <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
           <div>
@@ -718,7 +717,7 @@ export default function Page() {
       <!-- Service 3 -->
       <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
         <div style="height:170px; overflow:hidden; background:#F1F5F9;">
-          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-7.jpg" alt="Startups & Growing D2C" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+          <img class="cd-img-zoom" src="/startup.png" alt="Startups & Growing D2C" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
         </div>
         <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
           <div>
@@ -739,7 +738,7 @@ export default function Page() {
       <!-- Service 4 -->
       <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
         <div style="height:170px; overflow:hidden; background:#F1F5F9;">
-          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-8.jpg" alt="Agencies & Multi-Client Hubs" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+          <img class="cd-img-zoom" src="/agencies.png" alt="Agencies & Multi-Client Hubs" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
         </div>
         <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
           <div>

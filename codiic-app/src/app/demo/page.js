@@ -5,12 +5,12 @@ export const metadata = {
   description: 'Experience the real Codiic platform. Live store customizer, real-time order simulator, WhatsApp leads, and merchant dashboard — all for just ₹1/Day.',
 };
 
-const topHtml = `
+const heroHtml = `
 <div class="container-fluid">
 <div class="row-fluid-wrapper"><div class="row-fluid">
 <div class="span12 widget-span widget-type-cell" data-widget-type="cell" data-x="0" data-w="12">
 
-<!-- NAVIGATION -->
+<!-- NAVIGATION (SAME AS HOME PAGE) -->
 <div class="row-fluid-wrapper row-depth-1 row-number-1 dnd-section">
 <div class="row-fluid"><div class="span12 widget-span widget-type-cell dnd-column" data-widget-type="cell" data-x="0" data-w="12">
 <div class="row-fluid-wrapper row-depth-1 row-number-2 dnd-row"><div class="row-fluid">
@@ -18,22 +18,20 @@ const topHtml = `
 <div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module">
 <nav-bar home="true" bookurl="https://app.codiic.com">
   <ul slot="desktop" class="flex flex-nowrap">
-    <li class="menu-item"><a href="/platform">Platform</a></li>
-    <li class="menu-item"><a href="/solutions">Solutions</a></li>
-    <li class="menu-item"><a href="/features">Features</a></li>
-    <li class="menu-item"><a href="/pricing">Pricing</a></li>
-    <li class="menu-item"><a href="/demo">Demo App</a></li>
-    <li class="menu-item"><a href="https://app.codiic.com/login">Log in</a></li>
+    <li class="menu-item"><a href="/">Home</a></li>
+    <li class="menu-item"><a href="/demo">Demo</a></li>
+    <li class="menu-item"><a href="/themes">Themes</a></li>
+    <li class="menu-item"><a href="https://app.codiic.com/login">Pricing</a></li>
+    <li class="menu-item"><a href="/contact">Contact</a></li>
   </ul>
   <menu slot="mobile-1">
     <li class="mobile-menu-item"><a href="/">Home <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-    <li class="mobile-menu-item"><a href="/platform">Platform <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-    <li class="mobile-menu-item"><a href="/features">Features <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-    <li class="mobile-menu-item"><a href="/pricing">Pricing <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+    <li class="mobile-menu-item"><a href="/demo">Demo <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+    <li class="mobile-menu-item"><a href="/themes">Themes <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+    <li class="mobile-menu-item"><a href="https://app.codiic.com/login">Pricing <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
   </menu>
   <menu slot="mobile-2">
-    <li class="mobile-menu-item"><a href="/demo">Demo App <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-    <li class="mobile-menu-item"><a href="https://app.codiic.com/login">Log in <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+    <li class="mobile-menu-item"><a href="/contact">Contact <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
     <li class="mobile-menu-item"><a href="https://app.codiic.com">Start for ₹1/Day <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
   </menu>
 </nav-bar>
@@ -119,24 +117,26 @@ const bottomHtml = `
 <div class="span12 widget-span widget-type-custom_widget dnd-module" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module">
 <footer-section ctalink="/contact">
-  <li slot="menu-1" class="footer-menu-item"><a href="/platform">Platform</a></li>
-  <li slot="menu-1" class="footer-menu-item"><a href="/features">Store Builder</a></li>
-  <li slot="menu-1" class="footer-menu-item"><a href="/features">CRM Engine</a></li>
-  <li slot="menu-1" class="footer-menu-item"><a href="/features">WhatsApp Hub</a></li>
-  <li slot="menu-1" class="footer-menu-item"><a href="/features">AI Business Copilot</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="/demo">Demo</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="/themes">Themes</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com/login">Pricing</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="/website-builder">Store Builder</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com">CRM Engine</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="/automation">WhatsApp Hub</a></li>
+  <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com">AI Business Copilot</a></li>
+  <li slot="menu-2" class="footer-menu-item"><a href="/">Home</a></li>
   <li slot="menu-2" class="footer-menu-item"><a href="/about">About Us</a></li>
-  <li slot="menu-2" class="footer-menu-item"><a href="/careers">Careers</a></li>
-  <li slot="menu-2" class="footer-menu-item"><a href="/press">Press &amp; Media</a></li>
   <li slot="menu-2" class="footer-menu-item"><a href="/contact">Contact Support</a></li>
-  <li slot="menu-2" class="footer-menu-item"><a href="/blog">Blog</a></li>
+  <li slot="menu-2" class="footer-menu-item"><a href="mailto:careers@codiic.com">Careers</a></li>
+  <li slot="menu-2" class="footer-menu-item"><a href="mailto:press@codiic.com">Press &amp; Media</a></li>
   <li slot="social"><a target="_blank" href="https://instagram.com/codiic">Instagram</a></li>
   <li slot="social"><a target="_blank" href="https://linkedin.com/company/codiic">LinkedIn</a></li>
   <li slot="social"><a target="_blank" href="https://facebook.com/codiic">Facebook</a></li>
   <li slot="social"><a target="_blank" href="mailto:support@codiic.com">support@codiic.com</a></li>
-  <li slot="legal" class="square-item"><a href="/privacy">Privacy Policy</a></li>
-  <li slot="legal" class="square-item"><a href="/terms">Terms of Service</a></li>
-  <li slot="legal" class="square-item"><a href="/refund">Refund Policy</a></li>
-  <li slot="legal" class="square-item"><a href="/security">Security Overview</a></li>
+  <li slot="legal" class="square-item"><a href="https://codiic.com/privacy.html">Privacy Policy</a></li>
+  <li slot="legal" class="square-item"><a href="https://codiic.com/terms.html">Terms of Service</a></li>
+  <li slot="legal" class="square-item"><a href="https://codiic.com/terms.html">Refund Policy</a></li>
+  <li slot="legal" class="square-item"><a href="https://codiic.com/privacy.html">Security Overview</a></li>
 </footer-section>
 </div></div></div></div></div></div></div>
 
@@ -147,7 +147,7 @@ export default function DemoPage() {
   return (
     <div style={{ background: '#FAFAFF', minHeight: '100vh', width: '100%' }}>
       {/* Top Navbar & Hero */}
-      <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: topHtml }} />
+      <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: heroHtml }} />
 
       {/* Main Interactive Studio Section */}
       <section style={{
@@ -157,6 +157,27 @@ export default function DemoPage() {
         position: 'relative',
         zIndex: 10
       }}>
+        {/* Return to Home link */}
+        <div style={{ marginBottom: '24px' }}>
+          <a href="/" style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '8px',
+            fontFamily: 'abc-favorit, sans-serif',
+            fontSize: '13px',
+            fontWeight: 700,
+            color: '#4338CA',
+            textDecoration: 'none',
+            background: 'rgba(67, 56, 202, 0.08)',
+            padding: '8px 16px',
+            borderRadius: '100px',
+            border: '1px solid rgba(67, 56, 202, 0.15)',
+            transition: 'all 0.2s ease',
+          }}>
+            &larr; Return to Home
+          </a>
+        </div>
+
         {/* Studio Section Title */}
         <div style={{ textAlign: 'center', marginBottom: '36px' }}>
           <h2 style={{

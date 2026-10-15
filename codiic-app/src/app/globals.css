@@ -69,10 +69,90 @@
   font-weight: 900;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  position: relative;
   background-color: #fafaff;
+  -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.page, main, .container-fluid, .row-fluid-wrapper, .row-fluid {
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.row-fluid {
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.row-fluid [class*="span"],
+.span12, .span11, .span10, .span9, .span8, .span7, .span6, .span5, .span4, .span3, .span2, .span1 {
+  box-sizing: border-box !important;
+  max-width: 100% !important;
+}
+
+@media (max-width: 767px) {
+  html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  .container-fluid {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
+  .row-fluid {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  .row-fluid [class*="span"],
+  .span12, .span11, .span10, .span9, .span8, .span7, .span6, .span5, .span4, .span3, .span2, .span1 {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  .main_dnd-row-7-padding {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+  #navbar {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .horizontal-scroll,
+  #get-started.horizontal-scroll,
+  .black-canvas-container,
+  .black-canvas {
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+  }
 }
 
 .main_dnd-row-7-force-full-width-section > .row-fluid {
