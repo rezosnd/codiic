@@ -17,22 +17,20 @@ export default function Page() {
 <div id="hs_cos_wrapper_widget_1741551298453" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 <nav-bar home="true" bookurl="https://app.codiic.com">
     <ul slot="desktop" class="flex flex-nowrap">
-        <li class="menu-item"><a href="/platform">Platform</a></li>
-        <li class="menu-item"><a href="/solutions">Solutions</a></li>
-        <li class="menu-item"><a href="/features">Features</a></li>
-        <li class="menu-item"><a href="/pricing">Pricing</a></li>
-        <li class="menu-item"><a href="/demo">Demo App</a></li>
+        <li class="menu-item"><a href="/demo">Demo</a></li>
+        <li class="menu-item"><a href="/themes">Themes</a></li>
+        <li class="menu-item"><a href="https://app.codiic.com/login">Pricing</a></li>
+        <li class="menu-item"><a href="/contact">Contact</a></li>
         <li class="menu-item"><a href="https://app.codiic.com/login">Log in</a></li>
     </ul>
     <menu slot="mobile-1">
         <li class="mobile-menu-item"><a href="/">Home <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-        <li class="mobile-menu-item"><a href="/platform">Platform <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-        <li class="mobile-menu-item"><a href="/solutions">Solutions <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-        <li class="mobile-menu-item"><a href="/features">Features <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+        <li class="mobile-menu-item"><a href="/demo">Demo <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+        <li class="mobile-menu-item"><a href="/themes">Themes <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+        <li class="mobile-menu-item"><a href="https://app.codiic.com/login">Pricing <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
     </menu>
     <menu slot="mobile-2">
-        <li class="mobile-menu-item"><a href="/pricing">Pricing <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
-        <li class="mobile-menu-item"><a href="/demo">Demo App <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
+        <li class="mobile-menu-item"><a href="/contact">Contact <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
         <li class="mobile-menu-item"><a href="https://app.codiic.com/login">Log in <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
         <li class="mobile-menu-item"><a href="https://app.codiic.com">Start for ₹1/Day <img src="https://zipcio.com/hubfs/raw_assets/public/ZipcioTheme/img/arrow-right.svg" alt="icon" class="object-contain w-6 h-6"></a></li>
     </menu>
@@ -1236,27 +1234,29 @@ export default function Page() {
 <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div id="hs_cos_wrapper_module_17415574714188" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
 <footer-section ctalink="/contact">
-    <li slot="menu-1" class="footer-menu-item"><a href="/platform">Platform</a></li>
-    <li slot="menu-1" class="footer-menu-item"><a href="/features">Store Builder</a></li>
-    <li slot="menu-1" class="footer-menu-item"><a href="/features">CRM Engine</a></li>
-    <li slot="menu-1" class="footer-menu-item"><a href="/features">WhatsApp Hub</a></li>
-    <li slot="menu-1" class="footer-menu-item"><a href="/features">AI Business Copilot</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="/demo">Demo</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="/themes">Themes</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com/login">Pricing</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="/website-builder">Store Builder</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com">CRM Engine</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="/automation">WhatsApp Hub</a></li>
+    <li slot="menu-1" class="footer-menu-item"><a href="https://app.codiic.com">AI Business Copilot</a></li>
     
+    <li slot="menu-2" class="footer-menu-item"><a href="/">Home</a></li>
     <li slot="menu-2" class="footer-menu-item"><a href="/about">About Us</a></li>
-    <li slot="menu-2" class="footer-menu-item"><a href="/careers">Careers</a></li>
-    <li slot="menu-2" class="footer-menu-item"><a href="/press">Press & Media</a></li>
     <li slot="menu-2" class="footer-menu-item"><a href="/contact">Contact Support</a></li>
-    <li slot="menu-2" class="footer-menu-item"><a href="/blog">Blog</a></li>
+    <li slot="menu-2" class="footer-menu-item"><a href="mailto:careers@codiic.com">Careers</a></li>
+    <li slot="menu-2" class="footer-menu-item"><a href="mailto:press@codiic.com">Press & Media</a></li>
     
     <li slot="social"><a target="_blank" href="https://instagram.com/codiic">Instagram</a></li>
     <li slot="social"><a target="_blank" href="https://linkedin.com/company/codiic">LinkedIn</a></li>
     <li slot="social"><a target="_blank" href="https://facebook.com/codiic">Facebook</a></li>
     <li slot="social"><a target="_blank" href="mailto:support@codiic.com">support@codiic.com</a></li>
     
-    <li slot="legal" class="square-item"><a href="/privacy">Privacy Policy</a></li>
-    <li slot="legal" class="square-item"><a href="/terms">Terms of Service</a></li>
-    <li slot="legal" class="square-item"><a href="/refund">Refund Policy</a></li>
-    <li slot="legal" class="square-item"><a href="/security">Security Overview</a></li>
+    <li slot="legal" class="square-item"><a href="https://codiic.com/privacy.html">Privacy Policy</a></li>
+    <li slot="legal" class="square-item"><a href="https://codiic.com/terms.html">Terms of Service</a></li>
+    <li slot="legal" class="square-item"><a href="https://codiic.com/terms.html">Refund Policy</a></li>
+    <li slot="legal" class="square-item"><a href="https://codiic.com/privacy.html">Security Overview</a></li>
 </footer-section>
 </div>
 
