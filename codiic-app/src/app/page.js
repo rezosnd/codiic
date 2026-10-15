@@ -82,7 +82,7 @@ export default function Page() {
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div id="hs_cos_wrapper_widget_1774349831714" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<transform-cta button1label="See How Codiic Works" button1href="https://app.codiic.com" tagline="No complicated setup. No need for multiple tools. Instant activation. &quot;बस शुरू करो, बाकी Codiic संभाल लेगा। 😉&quot;">
+<transform-cta button1label="See How Codiic Works" button1href="https://app.codiic.com" tagline="No complicated setup. No need for multiple tools. Instant activation. &quot;बस शुरू करो, बाकी Codiic संभाल लेगा।&quot;">
     <strong>ONE PLATFORM. <img src="/hiphip.png" alt="rocket" class="object-contain -mb-10 w-[120px] 3xl:w-[234px] h-[94px] 3xl:h-[172px] hidden lg:inline-block rounded-xl relative -top-8 3xl:-top-6"></strong><br>
     ₹1/DAY. INFINITE POSSIBILITIES.
 </transform-cta>
@@ -112,12 +112,11 @@ export default function Page() {
 </div><!--end row-wrapper -->
 
 <!-- =====================================================
-     HOW CODIIC WORKS — Redesigned as a clean process section
+     HOW IT WORKS — 3-Step Streamlined Process (Restored)
      ===================================================== -->
 <div class="row-fluid-wrapper row-depth-1 row-number-7 dnd-row">
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-
 <section id="hww-section" style="
   background: linear-gradient(135deg, #0a0e27 0%, #131a42 40%, #1a2456 100%);
   padding: clamp(60px, 8vw, 120px) 0;
@@ -156,12 +155,11 @@ export default function Page() {
       max-width:600px;
       margin:0 auto 60px;
       line-height:1.6;
-    ">Get your business live in three simple streamlined steps.<br>&quot;बस तीन steps. Phir business mode ON. 🚀&quot;</p>
+    ">Get your business live in three simple streamlined steps.<br>&quot;बस तीन steps. Phir business mode ON.&quot;</p>
   </div>
 
   <!-- Steps Grid -->
   <div style="max-width:1200px;margin:0 auto;padding:0 clamp(20px,5vw,60px);position:relative;z-index:2;">
-    
     <!-- Step 1: START -->
     <div style="
       display:grid;
@@ -197,7 +195,7 @@ export default function Page() {
           line-height:1.7;
           margin:0 0 28px 0;
           max-width:440px;
-        ">Create your account in less than 30 seconds. No credit card or complex setup required. Instant activation — your business starts today.</p>
+        ">Create your account in less than 30 seconds. No credit card or complex setup required. Instant activation &mdash; your business starts today.</p>
         <a href="https://app.codiic.com" style="
           display:inline-flex;align-items:center;gap:8px;
           padding:14px 28px;border-radius:100px;
@@ -206,13 +204,13 @@ export default function Page() {
           font-size:15px;font-weight:600;text-decoration:none;
           transition:all 0.3s ease;
           box-shadow:0 4px 24px rgba(99,102,241,0.3);
-        ">Start for ₹1/Day <span style="font-size:18px;">↗</span></a>
+        ">Start for ₹1/Day <span style="font-size:18px;">&rarr;</span></a>
       </div>
       <div style="
         border-radius:24px;overflow:hidden;
         background:linear-gradient(135deg,#6366f1,#8b5cf6);
         padding:3px;
-      ">
+      " class="hww-step-img">
         <img src="/store_setup.png" alt="Codiic Account Setup" style="width:100%;height:auto;border-radius:22px;display:block;object-fit:cover;" loading="lazy">
       </div>
     </div>
@@ -244,7 +242,7 @@ export default function Page() {
           color:#fff;
           line-height:1.0;
           margin:0 0 20px 0;
-        ">CUSTOMIZE &<br><span style="color:#22d3ee;">LAUNCH</span></h3>
+        ">CUSTOMIZE &amp;<br><span style="color:#22d3ee;">LAUNCH</span></h3>
         <p style="
           font-family:'abc-favorit',sans-serif;
           font-size:clamp(15px,1.5vw,18px);
@@ -252,7 +250,7 @@ export default function Page() {
           line-height:1.7;
           margin:0 0 28px 0;
           max-width:440px;
-        ">Choose your theme, add your products or services, and connect your WhatsApp number. No coding required — your professional storefront goes live in minutes.</p>
+        ">Choose your theme, add your products or services, and connect your WhatsApp number. No coding required &mdash; your professional storefront goes live in minutes.</p>
         <a href="/features" style="
           display:inline-flex;align-items:center;gap:8px;
           padding:14px 28px;border-radius:100px;
@@ -261,7 +259,7 @@ export default function Page() {
           font-size:15px;font-weight:600;text-decoration:none;
           transition:all 0.3s ease;
           box-shadow:0 4px 24px rgba(6,182,212,0.3);
-        ">Explore Features <span style="font-size:18px;">↗</span></a>
+        ">Explore Features <span style="font-size:18px;">&rarr;</span></a>
       </div>
       <div style="
         border-radius:24px;overflow:hidden;order:1;
@@ -298,7 +296,7 @@ export default function Page() {
           color:#fff;
           line-height:1.0;
           margin:0 0 20px 0;
-        ">SCALE &<br><span style="color:#34d399;">AUTOMATE</span></h3>
+        ">SCALE &amp;<br><span style="color:#34d399;">AUTOMATE</span></h3>
         <p style="
           font-family:'abc-favorit',sans-serif;
           font-size:clamp(15px,1.5vw,18px);
@@ -306,7 +304,7 @@ export default function Page() {
           line-height:1.7;
           margin:0 0 28px 0;
           max-width:440px;
-        ">Bring in customers, accept online orders, send automated WhatsApp updates, and scale rapidly. AI Analytics, UPI Payments, and Smart Workflows — all working together.</p>
+        ">Bring in customers, accept online orders, send automated WhatsApp updates, and scale rapidly. AI Analytics, UPI Payments, and Smart Workflows &mdash; all working together.</p>
         <a href="https://app.codiic.com" style="
           display:inline-flex;align-items:center;gap:8px;
           padding:14px 28px;border-radius:100px;
@@ -315,13 +313,13 @@ export default function Page() {
           font-size:15px;font-weight:600;text-decoration:none;
           transition:all 0.3s ease;
           box-shadow:0 4px 24px rgba(16,185,129,0.3);
-        ">Start Growing <span style="font-size:18px;">↗</span></a>
+        ">Start Growing <span style="font-size:18px;">&rarr;</span></a>
       </div>
       <div style="
         border-radius:24px;overflow:hidden;
         background:linear-gradient(135deg,#10b981,#34d399);
         padding:3px;
-      ">
+      " class="hww-step-img">
         <img src="/automation.png" alt="Codiic Growth & Automation" style="width:100%;height:auto;border-radius:22px;display:block;object-fit:cover;" loading="lazy">
       </div>
     </div>
@@ -360,7 +358,13 @@ export default function Page() {
     </div>
   </div>
 </section>
+</div>
+</div>
+</div>
 
+<!-- =====================================================
+     GLOBAL SECTION STYLES & ANIMATIONS
+     ===================================================== -->
 <style>
   @media (max-width: 768px) {
     .hww-step-grid {
@@ -388,137 +392,788 @@ export default function Page() {
       grid-template-columns: 1fr !important;
     }
   }
+
+  .cd-card-hover {
+    transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+    will-change: transform;
+  }
+  .cd-card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 24px 48px -12px rgba(8, 8, 79, 0.12);
+    border-color: #C7D2FE !important;
+  }
+  .cd-img-zoom {
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .cd-card-hover:hover .cd-img-zoom {
+    transform: scale(1.04);
+  }
+  .cd-arrow-slide {
+    transition: transform 0.25s ease;
+    display: inline-block;
+  }
+  .cd-card-hover:hover .cd-arrow-slide {
+    transform: translateX(6px);
+  }
+
+  /* Infinite Scroll Testimonial Marquee */
+  @keyframes codiicMarquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+  .codiic-marquee-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 24px 0 36px 0;
+  }
+  .codiic-marquee-fade-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: clamp(40px, 8vw, 120px);
+    background: linear-gradient(to right, #FAFAFF 30%, rgba(250,250,255,0));
+    z-index: 5;
+    pointer-events: none;
+  }
+  .codiic-marquee-fade-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: clamp(40px, 8vw, 120px);
+    background: linear-gradient(to left, #FAFAFF 30%, rgba(250,250,255,0));
+    z-index: 5;
+    pointer-events: none;
+  }
+  .codiic-marquee-track {
+    display: flex;
+    gap: 24px;
+    width: max-content;
+    animation: codiicMarquee 38s linear infinite;
+  }
+  .codiic-marquee-track:hover {
+    animation-play-state: paused;
+  }
+  .codiic-testimonial-card {
+    width: clamp(300px, 28vw, 400px);
+    flex-shrink: 0;
+    background: #FFFFFF;
+    border: 1px solid #E2E8F0;
+    border-radius: 22px;
+    padding: 28px;
+    box-shadow: 0 4px 20px rgba(8, 8, 79, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+  }
+  .codiic-testimonial-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 36px -8px rgba(8, 8, 79, 0.12);
+    border-color: #CBD5E1;
+  }
+  @media (max-width: 768px) {
+    .codiic-marquee-track {
+      gap: 16px;
+      animation-duration: 26s;
+    }
+    .codiic-testimonial-card {
+      width: clamp(280px, 78vw, 340px);
+      padding: 22px;
+    }
+  }
 </style>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+<!-- =====================================================
+     1. WHY CODIIC WINS — Enterprise Showcase (Zoho Style)
+     ===================================================== -->
+<div class="row-fluid-wrapper row-depth-1 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module">
+
+<section style="background:#FAFAFF; padding:clamp(60px, 8vw, 100px) clamp(20px, 5vw, 60px);">
+  <div style="max-width:1280px; margin:0 auto;">
+    
+    <!-- Section Header -->
+    <div style="margin-bottom:clamp(36px, 5vw, 56px);">
+      <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 14px; border-radius:100px; background:rgba(67,56,202,0.08); border:1px solid rgba(67,56,202,0.15); margin-bottom:14px;">
+        <span style="width:6px; height:6px; border-radius:50%; background:#4338CA;"></span>
+        <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:#4338CA;">WHY CODIIC WINS</span>
+      </div>
+      <h2 style="font-family:'druk-cyr',Impact,sans-serif; font-size:clamp(36px, 5vw, 68px); font-weight:900; text-transform:uppercase; color:#08084F; line-height:0.95; margin:0 0 16px 0; letter-spacing:-0.02em;">
+        SMALL BUDGET. BIG POSSIBILITIES.
+      </h2>
+      <p style="font-family:'abc-favorit',sans-serif; font-size:clamp(15px, 1.5vw, 18px); color:#475569; max-width:680px; margin:0; line-height:1.6;">
+        You shouldn't need lakhs in software budget to test a business idea in India. Everything you need to build, sell, and grow from day one.
+      </p>
+    </div>
+
+    <!-- 2x2 Clean Enterprise Feature Cards -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 520px), 1fr)); gap:28px;">
+      
+      <!-- Card 01: No-Code Website & Store Builder -->
+      <div class="cd-card-hover" style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:24px; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(8,8,79,0.06); position:relative;">
+        <div style="height:4px; width:100%; background:linear-gradient(90deg, #4338CA, #818CF8);"></div>
+        <div style="padding:clamp(24px, 3.5vw, 36px);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:32px; font-weight:900; color:#4338CA; line-height:1;">01.</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#4338CA; background:#EEF2FF; padding:4px 12px; border-radius:100px; text-transform:uppercase; letter-spacing:0.05em;">Store Builder</span>
+          </div>
+          <h3 style="font-family:'abc-favorit',sans-serif; font-size:clamp(18px, 2vw, 22px); font-weight:800; color:#08084F; margin:0 0 12px 0; line-height:1.3;">
+            No-Code Website &amp; Store Builder
+          </h3>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#475569; line-height:1.65; margin:0 0 20px 0;">
+            Create a professional e-commerce storefront or landing page without writing code. Mobile-first design, custom domains, and instant product catalog setup.
+          </p>
+          <!-- Feature badges -->
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px;">
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#4338CA; background:#EEF2FF; padding:4px 10px; border-radius:6px;">✓ Custom Domain Sync</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#4338CA; background:#EEF2FF; padding:4px 10px; border-radius:6px;">✓ Mobile-First Catalog</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#4338CA; background:#EEF2FF; padding:4px 10px; border-radius:6px;">✓ Zero Code Needed</span>
+          </div>
+          <!-- Device Mockup Window -->
+          <div style="border-radius:14px; overflow:hidden; border:1px solid #E2E8F0; background:#F8FAFC; box-shadow:0 4px 16px rgba(8,8,79,0.04);">
+            <div style="display:flex; align-items:center; gap:6px; padding:10px 14px; background:#F1F5F9; border-bottom:1px solid #E2E8F0;">
+              <span style="width:8px; height:8px; border-radius:50%; background:#EF4444; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#F59E0B; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#10B981; display:inline-block;"></span>
+              <span style="margin-left:auto; font-family:'abc-favorit',monospace; font-size:11px; color:#94A3B8;">store.codiic.com</span>
+            </div>
+            <img class="cd-img-zoom" src="/Enterprise-level.png" alt="No-Code Website & Store Builder" style="width:100%; height:auto; display:block; object-fit:cover;" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 02: WhatsApp Automation & CRM -->
+      <div class="cd-card-hover" style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:24px; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(8,8,79,0.06); position:relative;">
+        <div style="height:4px; width:100%; background:linear-gradient(90deg, #047857, #34D399);"></div>
+        <div style="padding:clamp(24px, 3.5vw, 36px);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:32px; font-weight:900; color:#047857; line-height:1;">02.</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#047857; background:#ECFDF5; padding:4px 12px; border-radius:100px; text-transform:uppercase; letter-spacing:0.05em;">WhatsApp CRM</span>
+          </div>
+          <h3 style="font-family:'abc-favorit',sans-serif; font-size:clamp(18px, 2vw, 22px); font-weight:800; color:#08084F; margin:0 0 12px 0; line-height:1.3;">
+            WhatsApp Automation &amp; CRM
+          </h3>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#475569; line-height:1.65; margin:0 0 20px 0;">
+            Connect directly with customers through automated WhatsApp alerts, custom lead capture forms, and timely follow-ups from one centralized dashboard.
+          </p>
+          <!-- Feature badges -->
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px;">
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#047857; background:#ECFDF5; padding:4px 10px; border-radius:6px;">✓ Auto Order Alerts</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#047857; background:#ECFDF5; padding:4px 10px; border-radius:6px;">✓ 94% Read Rate</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#047857; background:#ECFDF5; padding:4px 10px; border-radius:6px;">✓ Unified Lead Chat</span>
+          </div>
+          <!-- Device Mockup Window -->
+          <div style="border-radius:14px; overflow:hidden; border:1px solid #E2E8F0; background:#F8FAFC; box-shadow:0 4px 16px rgba(8,8,79,0.04);">
+            <div style="display:flex; align-items:center; gap:6px; padding:10px 14px; background:#F1F5F9; border-bottom:1px solid #E2E8F0;">
+              <span style="width:8px; height:8px; border-radius:50%; background:#EF4444; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#F59E0B; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#10B981; display:inline-block;"></span>
+              <span style="margin-left:auto; font-family:'abc-favorit',monospace; font-size:11px; color:#94A3B8;">crm.codiic.com</span>
+            </div>
+            <img class="cd-img-zoom" src="/ai-cus.png" alt="WhatsApp Automation & CRM" style="width:100%; height:auto; display:block; object-fit:cover;" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 03: Integrated UPI & Payment Settlements -->
+      <div class="cd-card-hover" style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:24px; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(8,8,79,0.06); position:relative;">
+        <div style="height:4px; width:100%; background:linear-gradient(90deg, #D97706, #FBBF24);"></div>
+        <div style="padding:clamp(24px, 3.5vw, 36px);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:32px; font-weight:900; color:#D97706; line-height:1;">03.</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#B45309; background:#FFFBEB; padding:4px 12px; border-radius:100px; text-transform:uppercase; letter-spacing:0.05em;">UPI &amp; Payments</span>
+          </div>
+          <h3 style="font-family:'abc-favorit',sans-serif; font-size:clamp(18px, 2vw, 22px); font-weight:800; color:#08084F; margin:0 0 12px 0; line-height:1.3;">
+            Integrated UPI &amp; Payment Settlements
+          </h3>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#475569; line-height:1.65; margin:0 0 20px 0;">
+            Accept payments directly via GPay, PhonePe, Paytm, cards, and Cash on Delivery. Automated GST invoices and zero transaction fees on starter plans.
+          </p>
+          <!-- Feature badges -->
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px;">
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#B45309; background:#FFFBEB; padding:4px 10px; border-radius:6px;">✓ GPay, PhonePe, Paytm</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#B45309; background:#FFFBEB; padding:4px 10px; border-radius:6px;">✓ Auto GST Invoices</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#B45309; background:#FFFBEB; padding:4px 10px; border-radius:6px;">✓ COD Supported</span>
+          </div>
+          <!-- Device Mockup Window -->
+          <div style="border-radius:14px; overflow:hidden; border:1px solid #E2E8F0; background:#F8FAFC; box-shadow:0 4px 16px rgba(8,8,79,0.04);">
+            <div style="display:flex; align-items:center; gap:6px; padding:10px 14px; background:#F1F5F9; border-bottom:1px solid #E2E8F0;">
+              <span style="width:8px; height:8px; border-radius:50%; background:#EF4444; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#F59E0B; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#10B981; display:inline-block;"></span>
+              <span style="margin-left:auto; font-family:'abc-favorit',monospace; font-size:11px; color:#94A3B8;">payments.codiic.com</span>
+            </div>
+            <img class="cd-img-zoom" src="/scale.png" alt="Integrated UPI & Payment Settlements" style="width:100%; height:auto; display:block; object-fit:cover;" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 04: Ongoing Growth Partnership & Revenue Optimization -->
+      <div class="cd-card-hover" style="background:#FFFFFF; border:1px solid #E2E8F0; border-radius:24px; overflow:hidden; display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(8,8,79,0.06); position:relative;">
+        <div style="height:4px; width:100%; background:linear-gradient(90deg, #BE123C, #FB7185);"></div>
+        <div style="padding:clamp(24px, 3.5vw, 36px);">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:16px;">
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:32px; font-weight:900; color:#BE123C; line-height:1;">04.</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#BE123C; background:#FFF1F2; padding:4px 12px; border-radius:100px; text-transform:uppercase; letter-spacing:0.05em;">Revenue Engine</span>
+          </div>
+          <h3 style="font-family:'abc-favorit',sans-serif; font-size:clamp(18px, 2vw, 22px); font-weight:800; color:#08084F; margin:0 0 12px 0; line-height:1.3;">
+            Ongoing Growth Partnership &amp; Revenue Optimization
+          </h3>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#475569; line-height:1.65; margin:0 0 20px 0;">
+            Scale your business with automated abandoned cart recovery, AI copilot assistance, and real-time revenue analytics tailored for Indian merchants.
+          </p>
+          <!-- Feature badges -->
+          <div style="display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px;">
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#BE123C; background:#FFF1F2; padding:4px 10px; border-radius:6px;">✓ Abandoned Cart Recovery</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#BE123C; background:#FFF1F2; padding:4px 10px; border-radius:6px;">✓ AI Copilot Guidance</span>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:600; color:#BE123C; background:#FFF1F2; padding:4px 10px; border-radius:6px;">✓ Real-Time Analytics</span>
+          </div>
+          <!-- Device Mockup Window -->
+          <div style="border-radius:14px; overflow:hidden; border:1px solid #E2E8F0; background:#F8FAFC; box-shadow:0 4px 16px rgba(8,8,79,0.04);">
+            <div style="display:flex; align-items:center; gap:6px; padding:10px 14px; background:#F1F5F9; border-bottom:1px solid #E2E8F0;">
+              <span style="width:8px; height:8px; border-radius:50%; background:#EF4444; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#F59E0B; display:inline-block;"></span>
+              <span style="width:8px; height:8px; border-radius:50%; background:#10B981; display:inline-block;"></span>
+              <span style="margin-left:auto; font-family:'abc-favorit',monospace; font-size:11px; color:#94A3B8;">analytics.codiic.com</span>
+            </div>
+            <img class="cd-img-zoom" src="/ongoing-gr.png" alt="Ongoing Growth Partnership & Revenue Optimization" style="width:100%; height:auto; display:block; object-fit:cover;" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+</div>
 
 <!-- =====================================================
-     WHY CODIIC — Comparison / Showcase section
+     2. OUR SERVICES — Built for Businesses of All Sizes (Responsive + Animated)
      ===================================================== -->
-<div class="row-fluid-wrapper row-depth-1 row-number-7b dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget widget_1774384388649-hidden dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1774384388649" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<how-we-work heading="Why CODIIC Wins" description="Small Budget. Big Possibilities. You shouldn't need lakhs in software budget to test a business idea in India." 
-  step1number="01." step1title="No-Code Website & Store Builder" step1text="" step1image="/Enterprise-level.png" 
-  step2number="02." step2title="WhatsApp Automation & CRM" step2text="" step2image="/ai-cus.png" 
-  step3number="03." step3title="Integrated UPI & Payment Settlements" step3text="" step3image="/scale.png" 
-  step4number="04." step4title="AI Business Copilot for Indian Merchants" step4text="" step4image="/ongoing-gr.png"></how-we-work>
+<div class="row-fluid-wrapper row-depth-1 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module">
+
+<section id="service" style="background:#FFFFFF; padding:clamp(60px, 8vw, 100px) clamp(20px, 5vw, 60px); border-top:1px solid #F1F5F9; border-bottom:1px solid #F1F5F9;">
+  <div style="max-width:1280px; margin:0 auto;">
+    <p style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#4338CA; margin:0 0 12px 0;">
+      OUR SERVICES
+    </p>
+    <h2 style="font-family:'druk-cyr',Impact,sans-serif; font-size:clamp(36px, 5vw, 68px); font-weight:900; text-transform:uppercase; color:#08084F; line-height:0.95; margin:0 0 16px 0; letter-spacing:-0.02em;">
+      BUILT FOR BUSINESSES OF ALL SIZES
+    </h2>
+    <p style="font-family:'abc-favorit',sans-serif; font-size:clamp(15px, 1.5vw, 18px); color:#475569; max-width:680px; margin:0 0 48px 0; line-height:1.6;">
+      Whether you are launching a neighbourhood boutique or scaling an established agency, Codiic gives you the exact tools to succeed.
+    </p>
+
+    <!-- 4 Services Cards Responsive Grid with Hover Animations -->
+    <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap:20px;">
+      
+      <!-- Service 1 -->
+      <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
+        <div style="height:170px; overflow:hidden; background:#F1F5F9;">
+          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-5.jpg" alt="Small Shops & Retail Stores" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+        </div>
+        <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
+          <div>
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:18px; font-weight:900; color:#4338CA; display:block; margin-bottom:6px;">01.</span>
+            <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:22px; font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 10px 0; line-height:1.1;">
+              SMALL SHOPS &amp; RETAIL STORES
+            </h3>
+            <p style="font-family:'abc-favorit',sans-serif; font-size:13px; color:#475569; line-height:1.6; margin:0 0 18px 0;">
+              Launch your local store online and start accepting orders from Day 1. No tech skills needed.
+            </p>
+          </div>
+          <a href="/features" style="display:inline-flex; align-items:center; gap:6px; font-family:'abc-favorit',sans-serif; font-size:13px; font-weight:700; color:#4338CA; text-decoration:none;">
+            Explore <span class="cd-arrow-slide">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
+        <div style="height:170px; overflow:hidden; background:#F1F5F9;">
+          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-6.jpg" alt="Creators & Freelancers" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+        </div>
+        <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
+          <div>
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:18px; font-weight:900; color:#D97706; display:block; margin-bottom:6px;">02.</span>
+            <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:22px; font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 10px 0; line-height:1.1;">
+              CREATORS &amp; FREELANCERS
+            </h3>
+            <p style="font-family:'abc-favorit',sans-serif; font-size:13px; color:#475569; line-height:1.6; margin:0 0 18px 0;">
+              Sell digital products, service packages, and portfolios — all under your own brand domain.
+            </p>
+          </div>
+          <a href="/features" style="display:inline-flex; align-items:center; gap:6px; font-family:'abc-favorit',sans-serif; font-size:13px; font-weight:700; color:#D97706; text-decoration:none;">
+            Explore <span class="cd-arrow-slide">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
+        <div style="height:170px; overflow:hidden; background:#F1F5F9;">
+          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-7.jpg" alt="Startups & Growing D2C" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+        </div>
+        <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
+          <div>
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:18px; font-weight:900; color:#047857; display:block; margin-bottom:6px;">03.</span>
+            <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:22px; font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 10px 0; line-height:1.1;">
+              STARTUPS &amp; GROWING D2C
+            </h3>
+            <p style="font-family:'abc-favorit',sans-serif; font-size:13px; color:#475569; line-height:1.6; margin:0 0 18px 0;">
+              Launch your MVP, scale fast with automation, and grow your D2C brand without the enterprise price tag.
+            </p>
+          </div>
+          <a href="https://app.codiic.com" style="display:inline-flex; align-items:center; gap:6px; font-family:'abc-favorit',sans-serif; font-size:13px; font-weight:700; color:#047857; text-decoration:none;">
+            Explore <span class="cd-arrow-slide">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="cd-card-hover" style="background:#FAFAFF; border:1px solid #E2E8F0; border-radius:20px; overflow:hidden; display:flex; flex-direction:column;">
+        <div style="height:170px; overflow:hidden; background:#F1F5F9;">
+          <img class="cd-img-zoom" src="https://codiic.com/assets/img/theme-8.jpg" alt="Agencies & Multi-Client Hubs" style="width:100%; height:100%; object-fit:cover; display:block;" loading="lazy">
+        </div>
+        <div style="padding:22px; display:flex; flex-direction:column; flex:1; justify-content:space-between;">
+          <div>
+            <span style="font-family:'druk-cyr',Impact,sans-serif; font-size:18px; font-weight:900; color:#BE123C; display:block; margin-bottom:6px;">04.</span>
+            <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:22px; font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 10px 0; line-height:1.1;">
+              AGENCIES &amp; MULTI-CLIENT HUBS
+            </h3>
+            <p style="font-family:'abc-favorit',sans-serif; font-size:13px; color:#475569; line-height:1.6; margin:0 0 18px 0;">
+              Manage multiple client storefronts, campaigns, and WhatsApp funnels from one unified control center.
+            </p>
+          </div>
+          <a href="/solutions" style="display:inline-flex; align-items:center; gap:6px; font-family:'abc-favorit',sans-serif; font-size:13px; font-weight:700; color:#BE123C; text-decoration:none;">
+            Explore <span class="cd-arrow-slide">&rarr;</span>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
 </div>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+<!-- =====================================================
+     3. DOUBLE CTA SECTION (Responsive + Animated)
+     ===================================================== -->
+<div class="row-fluid-wrapper row-depth-1 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module">
 
-<div class="row-fluid-wrapper row-depth-1 row-number-8 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1741556676312" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<services-section id="service">
-    <span slot="headline">Built for Businesses of All Sizes</span>
-    <service-block class="basis-full" item="01" link="/features" buttontext="Explore" color="purple" image="https://codiic.com/assets/img/theme-5.jpg">
-        <span slot="before">SMALL SHOPS</span><span slot="after">& RETAIL STORES</span><span slot="description">Launch your local store online and start accepting orders from Day 1. No tech skills needed.</span>
-    </service-block>
-    <service-block class="basis-full" item="02" link="/features" buttontext="Explore" color="orange" image="https://codiic.com/assets/img/theme-6.jpg">
-        <span slot="before">CREATORS &</span><span slot="after">FREELANCERS</span><span slot="description">Sell digital products, service packages, and portfolios — all under your own brand domain.</span>
-    </service-block>
-    <service-block class="basis-full" item="03" link="https://app.codiic.com" buttontext="Explore" color="green" image="https://codiic.com/assets/img/theme-7.jpg">
-        <span slot="before">STARTUPS &</span><span slot="after">GROWING D2C</span><span slot="description">Launch your MVP, scale fast with automation, and grow your D2C brand without the enterprise price tag.</span>
-    </service-block>
-    <service-block class="basis-full" item="04" link="/solutions" buttontext="Explore" color="dark-orange" image="https://codiic.com/assets/img/theme-8.jpg">
-        <span slot="before">AGENCIES &</span><span slot="after">MULTI-CLIENT HUBS</span><span slot="description">Manage multiple client storefronts, campaigns, and WhatsApp funnels from one unified control center.</span>
-    </service-block>
-</services-section>
+<section style="background:#FAFAFF; padding:clamp(50px, 6vw, 80px) clamp(20px, 5vw, 60px);">
+  <div style="max-width:1280px; margin:0 auto; display:grid; grid-template-columns:repeat(auto-fit, minmax(min(100%, 340px), 1fr)); gap:24px;">
+    
+    <!-- CTA Card 1 -->
+    <div class="cd-card-hover" style="background:linear-gradient(135deg, #FAF5FF 0%, #F3E8FF 100%); border:1px solid #E9D5FF; border-radius:24px; padding:clamp(28px, 4vw, 44px); display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(139,92,246,0.1);">
+      <div>
+        <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:clamp(28px, 3.5vw, 42px); font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 14px 0; line-height:1.0;">
+          YOUR BUSINESS, FINALLY IN ONE PLACE
+        </h3>
+        <p style="font-family:'abc-favorit',sans-serif; font-size:15px; color:#475569; line-height:1.6; margin:0 0 28px 0;">
+          Build it. Run it. Grow it. Experience the real Codiic merchant control panel — no credit card needed. Instant activation.
+        </p>
+      </div>
+      <div>
+        <a href="https://app.codiic.com" style="display:inline-flex; align-items:center; gap:8px; padding:13px 28px; border-radius:100px; background:#08084F; color:#FFFFFF; font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; text-decoration:none; transition:all 0.25s;" onmouseover="this.style.background='#1E1B4B';this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(8,8,79,0.25)'" onmouseout="this.style.background='#08084F';this.style.transform='translateY(0)';this.style.boxShadow='none'">
+          Start for ₹1/Day &rarr;
+        </a>
+      </div>
+    </div>
+
+    <!-- CTA Card 2 -->
+    <div class="cd-card-hover" style="background:linear-gradient(135deg, #F0FDF4 0%, #DCFCE7 100%); border:1px solid #BBF7D0; border-radius:24px; padding:clamp(28px, 4vw, 44px); display:flex; flex-direction:column; justify-content:space-between; box-shadow:0 8px 30px -10px rgba(16,185,129,0.1);">
+      <div>
+        <h3 style="font-family:'druk-cyr',Impact,sans-serif; font-size:clamp(28px, 3.5vw, 42px); font-weight:900; text-transform:uppercase; color:#08084F; margin:0 0 14px 0; line-height:1.0;">
+          TRANSPARENT UNBEATABLE PRICING
+        </h3>
+        <p style="font-family:'abc-favorit',sans-serif; font-size:15px; color:#475569; line-height:1.6; margin:0 0 28px 0;">
+          ₹365/year for full access to all 8 modules. Save ₹1,43,635 vs separate SaaS tools annually. Single login. Instant sync.
+        </p>
+      </div>
+      <div>
+        <a href="/pricing" style="display:inline-flex; align-items:center; gap:8px; padding:13px 28px; border-radius:100px; background:#047857; color:#FFFFFF; font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; text-decoration:none; transition:all 0.25s;" onmouseover="this.style.background='#065F46';this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(4,120,87,0.25)'" onmouseout="this.style.background='#047857';this.style.transform='translateY(0)';this.style.boxShadow='none'">
+          See Pricing &rarr;
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</div>
+</div>
 </div>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+<!-- =====================================================
+     4. CLIENT TESTIMONIALS (Seamless Infinite Scroll Marquee)
+     ===================================================== -->
+<div class="row-fluid-wrapper row-depth-1 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module">
 
-<div class="row-fluid-wrapper row-depth-1 row-number-9 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1741551635359" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_widget_1741551635359_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><div style="display: none;">
-<p><span style="font-family: druk-cyr, arial, sans-serif; font-weight: bold;">Druk Cyr - 700</span></p>
-<p><span style="font-family: abc-favorit, arial, sans-serif;">ABC Favorit - All</span></p>
-</div></span></div>
+<section style="background:#FAFAFF; padding:clamp(60px, 8vw, 100px) 0; border-top:1px solid #F1F5F9; border-bottom:1px solid #F1F5F9; overflow:hidden;">
+  <div style="max-width:1280px; margin:0 auto; padding:0 clamp(20px, 5vw, 60px); text-align:center; margin-bottom:36px;">
+    <p style="font-family:'abc-favorit',sans-serif; font-size:12px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:#4338CA; margin:0 0 12px 0;">
+      CLIENT TESTIMONIALS
+    </p>
+    <h2 style="font-family:'druk-cyr',Impact,sans-serif; font-size:clamp(36px, 5vw, 68px); font-weight:900; text-transform:uppercase; color:#08084F; line-height:0.95; margin:0 0 14px 0; letter-spacing:-0.02em;">
+      TRUSTED BY INDIAN MERCHANTS
+    </h2>
+    <p style="font-family:'abc-favorit',sans-serif; font-size:clamp(15px, 1.5vw, 18px); color:#475569; max-width:600px; margin:0 auto; line-height:1.6;">
+      Real results from business owners who scaled their storefronts, WhatsApp funnels, and orders with Codiic.
+    </p>
+  </div>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+  <!-- Infinite Marquee Track with Left/Right Gradient Blend -->
+  <div class="codiic-marquee-container">
+    <div class="codiic-marquee-fade-left"></div>
+    <div class="codiic-marquee-fade-right"></div>
+    
+    <div class="codiic-marquee-track">
+      
+      <!-- ================= SET 1 ================= -->
+      <!-- Card 1: Rajesh -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#4338CA; background:rgba(67,56,202,0.08); padding:3px 10px; border-radius:100px;">Verified Merchant</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Codiic ne mera business transform kar diya. Website, WhatsApp automation, aur CRM — sab ek jagah. ₹1/day mein itna kuch? Unbelievable!&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-6.png" alt="Rajesh Sharma" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Rajesh Sharma</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Chai &amp; Kraft Store</div>
+          </div>
+        </div>
+      </div>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+      <!-- Card 2: Priya -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#047857; background:rgba(4,120,87,0.08); padding:3px 10px; border-radius:100px;">D2C Brand</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Pehle 5 alag apps use karta tha. Ab sirf Codiic. Orders 3x ho gaye aur cost 98% kam. यही तो चाहिए था!&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-4.png" alt="Priya Mehta" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Priya Mehta</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Owner, Dermify Skincare</div>
+          </div>
+        </div>
+      </div>
 
-<div class="row-fluid-wrapper row-depth-1 row-number-10 dnd-section">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
+      <!-- Card 3: Anita -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#D97706; background:rgba(217,119,6,0.08); padding:3px 10px; border-radius:100px;">Retail &amp; Store</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;WhatsApp broadcast, UPI payments, aur automated invoices — sab kuch ek dashboard se. Codiic is the real game-changer for Indian businesses.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-3.png" alt="Anita Verma" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Anita Verma</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Babyhaat</div>
+          </div>
+        </div>
+      </div>
 
-<div class="row-fluid-wrapper row-depth-1 row-number-11 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1741556912763" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<double-cta-section>
-    <cta-block class="flex-1" color="bg-purple" link="https://app.codiic.com" arrow="true" hasform="false" buttontext="Start for ₹1/Day">
-        <h2 slot="title">Your Business, Finally in One Place</h2>
-        <p slot="text">Build it. Run it. Grow it. Experience the real Codiic merchant control panel — no credit card needed.</p>
-    </cta-block>
-    <cta-block class="flex-1" color="bg-green" link="/pricing" arrow="true" hasform="false" buttontext="See Pricing">
-        <h2 slot="title">Transparent Unbeatable Pricing</h2>
-        <p slot="text">₹365/year for full access to all 8 modules. Save ₹1,43,635 vs separate SaaS tools annually.</p>
-    </cta-block>
-</double-cta-section>
+      <!-- Card 4: Vikram -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#BE123C; background:rgba(190,18,60,0.08); padding:3px 10px; border-radius:100px;">Textiles &amp; Sarees</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Zero code mein Surat Silk Heritage store ready ho gaya. UPI payments instant sync hote hain. Best ₹365 annual investment ever.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-6.png" alt="Vikram Patel" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Vikram Patel</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Surat Silk Heritage</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5: Khushboo -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#0E7490; background:rgba(14,116,144,0.08); padding:3px 10px; border-radius:100px;">Ayurvedic Brand</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Automated WhatsApp abandoned cart recovery feature recovered 34 orders in our first week. Customer CRM is pure gold.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-4.png" alt="Khushboo Saini" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Khushboo Saini</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Madhusara Naturals</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6: Sneha -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#4338CA; background:rgba(67,56,202,0.08); padding:3px 10px; border-radius:100px;">Gourmet &amp; Gifts</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;We scaled from zero to 10K+ monthly visitors without hiring a single developer. Codiic's speed and reliability are unmatched.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-3.png" alt="Sneha Rao" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Sneha Rao</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Co-Founder, The Saffron Box</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ================= SET 2 (Exact Duplicate for Seamless Loop) ================= -->
+      <!-- Card 1 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#4338CA; background:rgba(67,56,202,0.08); padding:3px 10px; border-radius:100px;">Verified Merchant</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Codiic ne mera business transform kar diya. Website, WhatsApp automation, aur CRM — sab ek jagah. ₹1/day mein itna kuch? Unbelievable!&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-6.png" alt="Rajesh Sharma" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Rajesh Sharma</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Chai &amp; Kraft Store</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#047857; background:rgba(4,120,87,0.08); padding:3px 10px; border-radius:100px;">D2C Brand</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Pehle 5 alag apps use karta tha. Ab sirf Codiic. Orders 3x ho gaye aur cost 98% kam. यही तो चाहिए था!&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-4.png" alt="Priya Mehta" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Priya Mehta</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Owner, Dermify Skincare</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#D97706; background:rgba(217,119,6,0.08); padding:3px 10px; border-radius:100px;">Retail &amp; Store</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;WhatsApp broadcast, UPI payments, aur automated invoices — sab kuch ek dashboard se. Codiic is the real game-changer for Indian businesses.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-3.png" alt="Anita Verma" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Anita Verma</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Babyhaat</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#BE123C; background:rgba(190,18,60,0.08); padding:3px 10px; border-radius:100px;">Textiles &amp; Sarees</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Zero code mein Surat Silk Heritage store ready ho gaya. UPI payments instant sync hote hain. Best ₹365 annual investment ever.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-6.png" alt="Vikram Patel" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Vikram Patel</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Surat Silk Heritage</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#0E7490; background:rgba(14,116,144,0.08); padding:3px 10px; border-radius:100px;">Ayurvedic Brand</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;Automated WhatsApp abandoned cart recovery feature recovered 34 orders in our first week. Customer CRM is pure gold.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-4.png" alt="Khushboo Saini" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Khushboo Saini</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Founder, Madhusara Naturals</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 Duplicate -->
+      <div class="codiic-testimonial-card">
+        <div>
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+            <div style="display:flex; align-items:center; gap:3px; color:#F59E0B;">
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+              <svg width="15" height="15" viewBox="0 0 20 20" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+            </div>
+            <span style="font-family:'abc-favorit',sans-serif; font-size:11px; font-weight:700; color:#4338CA; background:rgba(67,56,202,0.08); padding:3px 10px; border-radius:100px;">Gourmet &amp; Gifts</span>
+          </div>
+          <p style="font-family:'abc-favorit',sans-serif; font-size:14px; color:#1E293B; line-height:1.65; margin:0 0 20px 0;">
+            &ldquo;We scaled from zero to 10K+ monthly visitors without hiring a single developer. Codiic's speed and reliability are unmatched.&rdquo;
+          </p>
+        </div>
+        <div style="display:flex; align-items:center; gap:12px; padding-top:16px; border-top:1px solid #F1F5F9;">
+          <img src="https://codiic.com/assets/img/r-3.png" alt="Sneha Rao" style="width:42px; height:42px; border-radius:50%; object-fit:cover; border:1px solid #E2E8F0;" loading="lazy">
+          <div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:14px; font-weight:700; color:#08084F;">Sneha Rao</div>
+            <div style="font-family:'abc-favorit',sans-serif; font-size:12px; color:#64748B;">Co-Founder, The Saffron Box</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
 </div>
 
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-<div class="row-fluid-wrapper row-depth-1 row-number-12 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1741556987367" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<testimonials-section>
-    <testimonial-block item="01" color="bg-purple">
-        <img slot="logo" src="https://codiic.com/assets/img/r-6.png" alt="logo">
-        <p slot="content">"Codiic ne mera business transform kar diya. Website, WhatsApp automation, aur CRM — sab ek jagah. ₹1/day mein itna kuch? Unbelievable!"</p>
-        <span slot="author">Rajesh Sharma</span>
-        <span slot="designation">Founder, Chai & Kraft Store</span>
-    </testimonial-block>
-    <testimonial-block item="02" color="bg-green">
-        <img slot="logo" src="https://codiic.com/assets/img/r-4.png" alt="logo">
-        <p slot="content">"Pehle 5 alag apps use karta tha. Ab sirf Codiic. Orders 3x ho gaye aur cost 98% kam. यही तो चाहिए था!"</p>
-        <span slot="author">Priya Mehta</span>
-        <span slot="designation">Owner, Dermify Skincare</span>
-    </testimonial-block>
-    <testimonial-block item="03" color="bg-orange">
-        <img slot="logo" src="https://codiic.com/assets/img/r-3.png" alt="logo">
-        <p slot="content">"WhatsApp broadcast, UPI payments, aur automated invoices — sab kuch ek dashboard se. Codiic is the real game-changer for Indian businesses."</p>
-        <span slot="author">Anita Verma</span>
-        <span slot="designation">Founder, Babyhaat</span>
-    </testimonial-block>
-</testimonials-section>
-</div>
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-<div class="row-fluid-wrapper row-depth-1 row-number-13 dnd-section">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-cell dnd-column" style="" data-widget-type="cell" data-x="0" data-w="12">
-
-<div class="row-fluid-wrapper row-depth-1 row-number-14 dnd-row">
-<div class="row-fluid ">
-<div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
-<div id="hs_cos_wrapper_widget_1741557115670" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<!-- =====================================================
+     5. FAQS SECTION (Interactive Accordion Component as Earlier)
+     ===================================================== -->
+<div class="row-fluid-wrapper row-depth-1 dnd-row">
+<div class="row-fluid">
+<div class="span12 widget-span widget-type-custom_widget dnd-module">
+<div id="hs_cos_wrapper_widget_1741557115670" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module">
 <faq-section ctalink="/contact">
     <span slot="headline">Get answers to common questions about Codiic.</span>
     <faq-item>
@@ -547,14 +1202,9 @@ export default function Page() {
     </faq-item>
 </faq-section>
 </div>
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
-
-</div><!--end widget-span -->
-</div><!--end row-->
-</div><!--end row-wrapper -->
+</div>
+</div>
+</div>
 
 
 <div class="row-fluid-wrapper row-depth-1 row-number-17 dnd-section">
@@ -565,7 +1215,7 @@ export default function Page() {
 <div class="row-fluid ">
 <div class="span12 widget-span widget-type-custom_widget dnd-module" style="" data-widget-type="custom_widget" data-x="0" data-w="12">
 <div id="hs_cos_wrapper_widget_1741892399918" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
-<newsletter-section heading="Subscribe <br>to updates" subheading="Indian business tips, WhatsApp marketing guides, and growth frameworks — delivered to your inbox. &quot;अब बहाने नहीं, अब business शुरू करो। 🚀&quot;" note="We respect your privacy and protect your information.">
+<newsletter-section heading="Subscribe <br>to updates" subheading="Indian business tips, WhatsApp marketing guides, and growth frameworks — delivered to your inbox. &quot;अब बहाने नहीं, अब business शुरू करो।&quot;" note="We respect your privacy and protect your information.">
 </newsletter-section>
 </div>
 
