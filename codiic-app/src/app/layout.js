@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
         <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
         
         <script dangerouslySetInnerHTML={{ __html: `var hsVars = hsVars || {}; hsVars['language'] = 'en';` }}></script>
-        <script defer src="/template_main.js?v=11"></script>
+        <script defer src="/template_main.js?v=12"></script>
         <script defer src="https://zipcio.com/hubfs/hub_generated/module_assets/1/187881413719/1778538156611/module_HowWeWork.min.js"></script>
 
       </body>
